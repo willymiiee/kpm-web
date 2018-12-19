@@ -1,0 +1,38 @@
+footer {
+    background: $white;
+    font-family: 'Montserrat SemiBold';
+    color: $dark-grey;
+    font-size: 12px;
+
+    .container {
+        height: 140px;
+        @include nav-footer-centered;
+
+        .footer-nav {
+            a {
+                margin: 0 20px;
+                color: $dark-grey;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    footer {
+        text-align: center;
+        .container {
+            justify-content: center;
+        }
+    }
+    .footer-nav {
+        display: none;
+    }
+}

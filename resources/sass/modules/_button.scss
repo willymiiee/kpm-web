@@ -1,0 +1,44 @@
+.button {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-family: 'Montserrat SemiBold';
+    padding: 0.8rem 2.7rem;
+}
+
+.button.outline {
+    border: 0.2rem solid $red;
+    color: $red;
+}
+
+.button.fill {
+    background: $primary-color;
+    color: $white;
+    box-shadow: 0 0 30px $shadow;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 5px;
+    background: rgba($red, 0.8);
+    opacity: 1;
+    transition: all 0.3s ease;
+    z-index: 99;
+    &:hover {
+        background: rgba($red, 1);
+        box-shadow: 0 0 30px $shadow;
+    }
+    &.hidden {
+        visibility: hidden;
+        opacity: 0;
+    }
+    img {
+        padding: 10px;
+        width: 50px;
+        @include media-breakpoint-down(sm) {
+            padding: 6px;
+            width: 40px;
+        }
+    }
+}

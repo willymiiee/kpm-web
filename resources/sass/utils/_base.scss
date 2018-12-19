@@ -1,0 +1,53 @@
+// Base Text Size adjusment for easier multiplier when using 'rem' unit
+:root {
+    font-size: 10px;
+
+    @include media-breakpoint-down(md) {
+        font-size: 9px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 8px;
+    }
+}
+
+body {
+    background: $white;
+    overflow-x: hidden;
+}
+
+// Text Banner (h1) 
+h1 {
+    font-family: 'Montserrat Black';
+    font-size: 9rem;
+}
+
+// Content Title in Every Page (h2)
+
+h2 {
+    font-family: 'Montserrat ExtraBold';
+    font-size: 4rem;
+    color: $red;
+}
+
+// Text Body / Content
+
+p {
+    font-family: 'Nunito SemiBold';
+    font-size: 1.7rem;
+    color: $black;
+}
+
+// Scroll Animation Fade In
+
+[data-scroll] {
+    transition: opacity 1s;
+}
+
+[data-scroll="in"] {
+    opacity: 1;
+}
+
+[data-scroll="out"] {
+    opacity: 0;
+}

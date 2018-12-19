@@ -1,0 +1,67 @@
+@mixin nav-footer-centered {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin overlay($overlay-color) {
+    .overlay {
+        &:before {
+            position: absolute;
+            content: "";
+            z-index: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: $overlay-color;
+        }
+    }
+}
+
+@mixin page-header($name_desktop, $name_mobile) {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    background: linear-gradient(rgba($black, 0.5)), url('/img/background/#{$name_desktop}.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include media-breakpoint-down(sm) {
+        background: linear-gradient(rgba($black, 0.5)), url('/img/background/#{$name_mobile}.jpg');
+    }
+
+    .header {
+        position: relative;
+        height: 100%;
+
+        &__title {
+            position: absolute;
+            bottom: 30px;
+            font-family: 'Montserrat Black';
+            font-size: 90px;
+            color: $white;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .header {
+        &__title {
+            font-size: 70px !important;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .page-header {
+        height: 250px !important;
+
+        .header {
+            &__title {
+                font-size: 50px !important;
+                bottom: 10px !important;
+            }
+        }
+    }
+}

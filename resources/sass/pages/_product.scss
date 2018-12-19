@@ -1,0 +1,47 @@
+#product {
+    .page-header {
+        @include page-header(product_desktop, product_mobile);
+    }
+
+    .product {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-rows: min-content;
+        grid-gap: 20px;
+
+        &__item {
+            box-shadow: 0 0 30px $shadow;
+            border-radius: 5px;
+            position: relative;
+
+            &--supplier {
+                position: absolute;
+                top: 8px;
+                left: 8px;
+                box-shadow: 0 0 30px $shadow;
+                border-radius: 5px;
+
+                img {
+                    margin: 10px 20px;
+                    height: 18px;
+                }
+            }
+
+            &--image {
+                display: grid;
+                place-items: center;
+
+                img {
+                    height: 150px;
+                    margin-top: 70px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            &--name {
+                font-family: 'Nunito Bold';
+            }
+        }
+    }
+}
