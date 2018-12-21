@@ -1,16 +1,23 @@
-#about {
+.about {
     .page-header {
-        @include page-header(about_desktop, about_mobile);
+
+        // ---------- Only use images that located in '/public/img/background/...'
+        // ---------- and just write the file name in a SINGLE QUOTE, 
+        // ---------- first parameter for image that load on DESKTOP
+        // ---------- second parameter for image that load on MOBILE
+
+        @include page-header('about_desktop.jpg', 'about_mobile.jpg');
     }
 
     .content {
         padding-top: 120px;
-        
+
         .bg-shape-1 {
             position: absolute;
             width: 500px;
             right: -350px;
             z-index: -1;
+
             @include media-breakpoint-down(md) {
                 width: 400px;
                 right: -250px;
@@ -83,6 +90,7 @@
         .content__counter {
             margin: 0 !important;
         }
+
         h2 {
             display: table;
             white-space: nowrap;
@@ -105,10 +113,12 @@
                 left: 2%;
             }
         }
+
         .history {
             background: $primary-color;
             border-radius: 5px;
             margin-top: 40px;
+
             p {
                 color: $white;
                 padding: 40px;
@@ -120,7 +130,7 @@
 
 @include media-breakpoint-down(md) {
 
-    #about {
+    .about {
         .content {
             padding-top: 60px !important;
 
@@ -134,11 +144,12 @@
 
 @include media-breakpoint-down(sm) {
 
-    #about {
+    .about {
         .content {
             &__counter {
                 font-size: 20px !important;
             }
+
             &__title {
                 font-size: 30px !important;
             }

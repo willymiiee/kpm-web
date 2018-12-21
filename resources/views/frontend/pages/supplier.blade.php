@@ -6,11 +6,11 @@ Our Supplier
 
 @section('body')
 <div id="supplier">
-    <section class="page-header">
-        <div class="container header">
-            <h1 class="header__title">Our Supplier</h1>
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">Supplier</h1>
         </div>
-    </section>
+    </header>
     <div class="supplier container">
         <div class="supplier__desc">
             <div class="supplier__logo d-flex justify-content-center align-items-center">

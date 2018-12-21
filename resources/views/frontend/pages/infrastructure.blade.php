@@ -6,11 +6,11 @@ Infrastructure
 
 @section('body')
 <div id="infrastructure">
-    <section class="page-header">
-        <div class="container header">
-            <h1 class="header__title">Infrastructure</h1>
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">Infrastructure</h1>
         </div>
-    </section>
+    </header>
     <div class="warehouse container row mx-auto">
         <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">

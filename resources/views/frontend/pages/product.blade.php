@@ -6,11 +6,11 @@ Product
 
 @section('body')
 <div id="product">
-    <section class="page-header">
-        <div class="container header">
-            <h1 class="header__title">Our Product</h1>
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">Our Product</h1>
         </div>
-    </section>
+    </header>
     <div class="product container">
         <div class="product__item">
             <div class="product__item--supplier">

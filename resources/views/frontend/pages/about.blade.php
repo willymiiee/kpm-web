@@ -5,12 +5,12 @@ About Us
 @endsection
 
 @section('body')
-<div id="about">
-    <section class="page-header">
-        <div class="container header">
-            <h1 class="header__title">About Us</h1>
+<div class="about">
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">About Us</h1>
         </div>
-    </section>
+    </header>
     <div class="content content-1 container row mx-auto">
 
         <div class="col-lg-5 d-flex justify-content-center align-items-center">

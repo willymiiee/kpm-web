@@ -1,20 +1,30 @@
 #supplier {
     .page-header {
-        @include page-header(supplier_desktop, supplier_mobile);
+
+        // ---------- Only use images that located in '/public/img/background/...'
+        // ---------- and just write the file name in a SINGLE QUOTE, 
+        // ---------- first parameter for image that load on DESKTOP
+        // ---------- second parameter for image that load on MOBILE
+
+        @include page-header('supplier_desktop.jpg', 'supplier_mobile.jpg');
     }
+
     .supplier.container {
         max-width: 65%;
+
         @include media-breakpoint-down(sm) {
             max-width: 100%;
         }
     }
 
     .supplier {
+
         &__logo,
         &__desc {
             box-shadow: 0 0 30px $shadow;
             border-radius: 5px;
         }
+
         &__logo {
             position: absolute;
             background: $white;
@@ -23,6 +33,7 @@
             left: 50%;
             top: -40px;
             transform: translateX(-50%);
+
             img {
                 height: 35px;
             }
@@ -32,10 +43,12 @@
             position: relative;
             margin-top: 80px;
             padding: 80px 40px 40px 40px;
+
             .blockquote-footer {
                 font-size: 1rem;
             }
         }
+
         &__title {
             position: relative;
             left: 50%;
@@ -61,6 +74,7 @@
                 padding-left: 20px;
                 padding-right: 20px;
             }
+
             &__title {
                 font-size: 25px;
             }

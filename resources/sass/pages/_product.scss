@@ -1,6 +1,12 @@
 #product {
     .page-header {
-        @include page-header(product_desktop, product_mobile);
+
+        // ---------- Only use images that located in '/public/img/background/...'
+        // ---------- and just write the file name in a SINGLE QUOTE, 
+        // ---------- first parameter for image that load on DESKTOP
+        // ---------- second parameter for image that load on MOBILE
+
+        @include page-header('product_desktop.jpg', 'product_mobile.jpg');
     }
 
     .product {

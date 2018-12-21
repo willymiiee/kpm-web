@@ -1,6 +1,12 @@
 #infrastructure {
     .page-header {
-        @include page-header(infrastructure_desktop, infrastructure_mobile);
+        
+        // ---------- Only use images that located in '/public/img/background/...'
+        // ---------- and just write the file name in a SINGLE QUOTE, 
+        // ---------- first parameter for image that load on DESKTOP
+        // ---------- second parameter for image that load on MOBILE
+
+        @include page-header('infrastructure_desktop.jpg', 'infrastructure_mobile.jpg');
     }
 
     .warehouse {

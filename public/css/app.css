@@ -11042,56 +11042,42 @@ p {
   }
 }
 
-#about .page-header {
+.about .page-header {
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/about_desktop.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/about_desktop.jpg");
-  background-position: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/about_desktop.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/about_desktop.jpg") no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 350px;
-  width: 100%;
+  height: 35rem;
 }
 
 @media (max-width: 767.98px) {
-  #about .page-header {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/about_mobile.jpg");
-    background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/about_mobile.jpg");
-    height: 220px;
+  .about .page-header {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/about_mobile.jpg") no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/about_mobile.jpg") no-repeat center;
+    background-size: cover;
+    height: 28rem;
   }
 }
 
-#about .page-header .header {
-  position: relative;
-  height: 100%;
-}
-
-#about .page-header .header__title {
+.about .page-header__title {
   position: absolute;
-  bottom: 30px;
-  font-family: "Montserrat Black";
-  font-size: 90px;
+  bottom: 3rem;
+  font: 8rem "Montserrat Black";
   color: #fcfcfc;
 }
 
-@media (max-width: 991.98px) {
-  #about .page-header .header__title {
-    font-size: 70px !important;
-  }
-}
-
 @media (max-width: 767.98px) {
-  #about .page-header .header__title {
-    font-size: 50px !important;
-    bottom: 10px !important;
+  .about .page-header__title {
+    bottom: 1.5rem;
+    font-size: 6rem;
   }
 }
 
-#about .content {
+.about .content {
   padding-top: 120px;
 }
 
-#about .content .bg-shape-1 {
+.about .content .bg-shape-1 {
   position: absolute;
   width: 500px;
   right: -350px;
@@ -11099,13 +11085,13 @@ p {
 }
 
 @media (max-width: 991.98px) {
-  #about .content .bg-shape-1 {
+  .about .content .bg-shape-1 {
     width: 400px;
     right: -250px;
   }
 }
 
-#about .content__counter {
+.about .content__counter {
   color: #ff3c3c;
   font-family: "Montserrat ExtraBold";
   font-style: italic;
@@ -11114,15 +11100,15 @@ p {
   margin-bottom: 10px;
 }
 
-#about .content__title {
+.about .content__title {
   color: black;
 }
 
-#about .content__body {
+.about .content__body {
   margin-top: 40px;
 }
 
-#about .content-1 .bg-shadow {
+.about .content-1 .bg-shadow {
   position: relative;
   width: 400px;
   height: 500px;
@@ -11136,7 +11122,7 @@ p {
   z-index: 2;
 }
 
-#about .content-1 .bg-shadow img {
+.about .content-1 .bg-shadow img {
   position: absolute;
   width: inherit;
   height: inherit;
@@ -11148,33 +11134,33 @@ p {
   z-index: 3;
 }
 
-#about .content-1 span {
+.about .content-1 span {
   color: #ff3c3c;
 }
 
-#about .content-2 img {
+.about .content-2 img {
   width: 450px;
 }
 
-#about .content-2 .media img {
+.about .content-2 .media img {
   width: 25px !important;
 }
 
-#about .content-2 .media-body {
+.about .content-2 .media-body {
   color: #989898;
 }
 
-#about .content-3 .content__counter {
+.about .content-3 .content__counter {
   margin: 0 !important;
 }
 
-#about .content-3 h2 {
+.about .content-3 h2 {
   display: table;
   white-space: nowrap;
 }
 
-#about .content-3 h2:before,
-#about .content-3 h2:after {
+.about .content-3 h2:before,
+.about .content-3 h2:after {
   border-top: 2px solid #ff3c3c;
   content: "";
   display: table-cell;
@@ -11183,106 +11169,92 @@ p {
   width: 45%;
 }
 
-#about .content-3 h2:before {
+.about .content-3 h2:before {
   right: 2%;
 }
 
-#about .content-3 h2:after {
+.about .content-3 h2:after {
   left: 2%;
 }
 
-#about .content-3 .history {
+.about .content-3 .history {
   background: -webkit-gradient(linear, left top, right bottom, from(#ff3c3c), to(#FF6F00));
   background: linear-gradient(to bottom right, #ff3c3c, #FF6F00);
   border-radius: 5px;
   margin-top: 40px;
 }
 
-#about .content-3 .history p {
+.about .content-3 .history p {
   color: #fcfcfc;
   padding: 40px;
   margin: 0;
 }
 
 @media (max-width: 991.98px) {
-  #about .content {
+  .about .content {
     padding-top: 60px !important;
   }
 
-  #about .content__counter {
+  .about .content__counter {
     font-size: 25px !important;
     margin-top: 70px !important;
   }
 }
 
 @media (max-width: 767.98px) {
-  #about .content__counter {
+  .about .content__counter {
     font-size: 20px !important;
   }
 
-  #about .content__title {
+  .about .content__title {
     font-size: 30px !important;
   }
 
-  #about .content-1 .bg-shadow {
+  .about .content-1 .bg-shadow {
     width: 300px !important;
     height: 400px !important;
     left: 20px !important;
     bottom: -20px !important;
   }
 
-  #about .content-1 .bg-shadow img {
+  .about .content-1 .bg-shadow img {
     left: -20px !important;
     top: -20px !important;
   }
 
-  #about .content-2 img {
+  .about .content-2 img {
     width: 300px !important;
   }
 }
 
 #supplier .page-header {
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/supplier_desktop.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/supplier_desktop.jpg");
-  background-position: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/supplier_desktop.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/supplier_desktop.jpg") no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 350px;
-  width: 100%;
+  height: 35rem;
 }
 
 @media (max-width: 767.98px) {
   #supplier .page-header {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/supplier_mobile.jpg");
-    background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/supplier_mobile.jpg");
-    height: 220px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/supplier_mobile.jpg") no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/supplier_mobile.jpg") no-repeat center;
+    background-size: cover;
+    height: 28rem;
   }
 }
 
-#supplier .page-header .header {
-  position: relative;
-  height: 100%;
-}
-
-#supplier .page-header .header__title {
+#supplier .page-header__title {
   position: absolute;
-  bottom: 30px;
-  font-family: "Montserrat Black";
-  font-size: 90px;
+  bottom: 3rem;
+  font: 8rem "Montserrat Black";
   color: #fcfcfc;
 }
 
-@media (max-width: 991.98px) {
-  #supplier .page-header .header__title {
-    font-size: 70px !important;
-  }
-}
-
 @media (max-width: 767.98px) {
-  #supplier .page-header .header__title {
-    font-size: 50px !important;
-    bottom: 10px !important;
+  #supplier .page-header__title {
+    bottom: 1.5rem;
+    font-size: 6rem;
   }
 }
 
@@ -11358,46 +11330,32 @@ p {
 
 #product .page-header {
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/product_desktop.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/product_desktop.jpg");
-  background-position: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/product_desktop.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/product_desktop.jpg") no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 350px;
-  width: 100%;
+  height: 35rem;
 }
 
 @media (max-width: 767.98px) {
   #product .page-header {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/product_mobile.jpg");
-    background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/product_mobile.jpg");
-    height: 220px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/product_mobile.jpg") no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/product_mobile.jpg") no-repeat center;
+    background-size: cover;
+    height: 28rem;
   }
 }
 
-#product .page-header .header {
-  position: relative;
-  height: 100%;
-}
-
-#product .page-header .header__title {
+#product .page-header__title {
   position: absolute;
-  bottom: 30px;
-  font-family: "Montserrat Black";
-  font-size: 90px;
+  bottom: 3rem;
+  font: 8rem "Montserrat Black";
   color: #fcfcfc;
 }
 
-@media (max-width: 991.98px) {
-  #product .page-header .header__title {
-    font-size: 70px !important;
-  }
-}
-
 @media (max-width: 767.98px) {
-  #product .page-header .header__title {
-    font-size: 50px !important;
-    bottom: 10px !important;
+  #product .page-header__title {
+    bottom: 1.5rem;
+    font-size: 6rem;
   }
 }
 
@@ -11448,46 +11406,32 @@ p {
 
 #infrastructure .page-header {
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/infrastructure_desktop.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/infrastructure_desktop.jpg");
-  background-position: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/infrastructure_desktop.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/infrastructure_desktop.jpg") no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 350px;
-  width: 100%;
+  height: 35rem;
 }
 
 @media (max-width: 767.98px) {
   #infrastructure .page-header {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/infrastructure_mobile.jpg");
-    background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/infrastructure_mobile.jpg");
-    height: 220px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/infrastructure_mobile.jpg") no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/infrastructure_mobile.jpg") no-repeat center;
+    background-size: cover;
+    height: 28rem;
   }
 }
 
-#infrastructure .page-header .header {
-  position: relative;
-  height: 100%;
-}
-
-#infrastructure .page-header .header__title {
+#infrastructure .page-header__title {
   position: absolute;
-  bottom: 30px;
-  font-family: "Montserrat Black";
-  font-size: 90px;
+  bottom: 3rem;
+  font: 8rem "Montserrat Black";
   color: #fcfcfc;
 }
 
-@media (max-width: 991.98px) {
-  #infrastructure .page-header .header__title {
-    font-size: 70px !important;
-  }
-}
-
 @media (max-width: 767.98px) {
-  #infrastructure .page-header .header__title {
-    font-size: 50px !important;
-    bottom: 10px !important;
+  #infrastructure .page-header__title {
+    bottom: 1.5rem;
+    font-size: 6rem;
   }
 }
 
