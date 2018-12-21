@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md fixed-top">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">KPM.</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-controls="nav-collapse"
+        <button class="navbar-toggler my-3 my-md-0" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-controls="nav-collapse"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
