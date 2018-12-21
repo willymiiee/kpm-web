@@ -13,11 +13,15 @@
     @include('frontend.modules.header')
     @yield('body')
     @include('frontend.modules.footer')
+
+    <!---------- Back To Top Button on Every Pages ---------->
+
     <a data-scroll class="back-to-top hidden" href="#">
         <img src="/img/icon/arrow-up.svg">
     </a>
-    <script src="{{ asset('js//vendor/smooth-scroll.polyfills.min.js') }}"></script>
+    
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js//vendor/smooth-scroll.polyfills.min.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
 </body>
 

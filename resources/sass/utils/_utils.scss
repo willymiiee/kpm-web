@@ -1,24 +1,3 @@
-@mixin nav-footer-centered {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-@mixin overlay($overlay-color) {
-    .overlay {
-        &:before {
-            position: absolute;
-            content: "";
-            z-index: 0;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: $overlay-color;
-        }
-    }
-}
-
 @mixin page-header($name_desktop, $name_mobile) {
     position: relative;
     height: 350px;
