@@ -1,38 +1,19 @@
-footer {
-    background: $white;
-    font-family: 'Montserrat SemiBold';
+.footer {
+    background-color: $white;
     color: $dark-grey;
-    font-size: 12px;
+    font: 1.3rem 'Montserrat SemiBold';
+    padding: 5rem 0;
 
-    .container {
-        height: 140px;
-        @include nav-footer-centered;
-
-        .footer-nav {
-            a {
-                margin: 0 20px;
-                color: $dark-grey;
-
-                &:first-child {
-                    margin-left: 0;
-                }
-
-                &:last-child {
-                    margin-right: 0;
-                }
-            }
+    &__nav-link {
+        color: $dark-grey;
+        text-decoration: none !important;
+        transition: color .3s ease;
+        &:hover {
+            color: darken($dark-grey, 30%);
         }
-    }
-}
 
-@include media-breakpoint-down(sm) {
-    footer {
-        text-align: center;
-        .container {
-            justify-content: center;
+        @include media-breakpoint-down(sm) {
+            display: none;
         }
-    }
-    .footer-nav {
-        display: none;
     }
 }

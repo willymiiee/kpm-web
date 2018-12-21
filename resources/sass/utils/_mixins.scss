@@ -1,5 +1,38 @@
-@mixin nav-footer-centered {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@mixin page-header($name_desktop, $name_mobile) {
+    position: relative;
+    background: linear-gradient(rgba($black, 0.6)),
+    url('/img/background/#{$name_desktop}.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+
+    @include media-breakpoint-down(sm) {
+        background: linear-gradient(rgba($black, 0.6)),
+        url('/img/background/#{$name_mobile}.jpg');
+        height: 220px;
+    }
+
+    .header {
+        position: relative;
+        height: 100%;
+
+        &__title {
+            position: absolute;
+            bottom: 30px;
+            font-family: 'Montserrat Black';
+            font-size: 90px;
+            color: $white;
+
+            @include media-breakpoint-down(md) {
+                font-size: 70px !important;
+            }
+
+            @include media-breakpoint-down(sm) {
+                font-size: 50px !important;
+                bottom: 10px !important;
+            }
+        }
+    }
 }
