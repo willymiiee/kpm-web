@@ -9,7 +9,7 @@ productThumbnail.forEach(function (el) {
 });
 
 var scroll = new SmoothScroll('a[href*="#"]', {
-	speed: 500,
+	speed: 800,
     speedAsDuration: true,
     easing: 'easeInOutQuad',
     topOnEmptyHash: true,
