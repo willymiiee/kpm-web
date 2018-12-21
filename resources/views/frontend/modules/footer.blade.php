@@ -3,7 +3,7 @@
         <div class="footer__copyright text-center text-md-left">
             <span>&copy; 2019 PT. Kembar Putra Makmur.<br>All Rights Reserved.</span>
         </div>
-        <div class="footer__nav">
+        <div class="footer__nav d-none d-md-block">
             <a class="footer__nav-link mr-4" href="{{ url('/') }}">Home</a>
             <a class="footer__nav-link mx-4" href="{{ url('/about') }}">About</a>
             <a class="footer__nav-link mx-4" href="{{ url('/product') }}">Products</a>

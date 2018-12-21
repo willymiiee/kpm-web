@@ -10633,12 +10633,6 @@ p {
   color: #4c4c4c;
 }
 
-@media (max-width: 767.98px) {
-  .footer__nav-link {
-    display: none;
-  }
-}
-
 .button {
   display: inline-block;
   font-size: 1.6rem;

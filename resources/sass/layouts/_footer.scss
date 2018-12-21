@@ -11,9 +11,5 @@
         &:hover {
             color: darken($dark-grey, 30%);
         }
-
-        @include media-breakpoint-down(sm) {
-            display: none;
-        }
     }
 }
