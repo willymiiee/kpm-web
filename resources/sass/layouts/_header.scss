@@ -1,50 +1,39 @@
+    // ---------- Bootstrap Style Naming (not use BEM naming convention)----------
+
 .navbar {
-    background: $white;
-    box-shadow: 0 0 30px $shadow;
+    background-color: $white;
+    box-shadow: 0 0 3rem $shadow;
 
-    .navbar-toggler {
-        border: 2px solid $red;
-    }
-
-    .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 60, 60, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-
-    .navbar-brand {
-        font-family: 'Montserrat Black';
-        font-size: 3rem;
+    &-brand {
+        font: 3rem 'Montserrat Black';
         color: $red;
     }
 
-    .nav-item {
-        font-size: 1.7rem;
-        color: $red;
-        font-family: 'Nunito Bold';
-        transition: all .2s ease;
-        padding: 10px 15px !important;
-        &.active {
-            background: $red;
-            color: $white;
-        }
+    &-toggler {
+        border: 0.2rem solid $red;
+        border-radius: 0.5rem;
 
-        &:hover {
-            background: lighten($red, 10%);
-            color: $white;
+        &-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 60, 60, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            width: 3rem;
+            height: 3rem;
         }
     }
-}
 
-@include media-breakpoint-down(sm) {
     .nav-item {
-        text-align: center;
-        padding: 20px 0 !important;
-        font-size: 18px !important;
+        font: 1.6rem 'Nunito Bold';
+        color: $red;
+        transition: all 0.2s ease;
+        border-radius: 0.5rem;
 
         &:hover {
-            background: $white !important;
-            color: $red !important;
+            background-color: $red;
+            color: $white;
+        }
+
+        @include media-breakpoint-down(sm) {
+            padding: 2rem 0;
+            font-size: 2.5rem;
         }
     }
 }
