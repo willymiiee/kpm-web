@@ -17,6 +17,10 @@
             left: 0;
             bottom: 0;
             width: 65%;
+
+            @include media-breakpoint-down(md) {
+                width: 100%;
+            }
         }
 
         .shape-2 {
@@ -25,6 +29,10 @@
             bottom: 0;
             width: 50%;
             filter: drop-shadow(-4px -4px 3px $shadow);
+
+            @include media-breakpoint-down(md) {
+                width: 100%;
+            }
         }
     }
 
@@ -35,20 +43,62 @@
         background-size: cover;
         background-repeat: no-repeat;
 
+        @include media-breakpoint-down(sm) {
+            align-items: center;
+            background: linear-gradient(rgba($white, 0.85)), url(/img/background/home-banner_mobile.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
         &__title {
             font-size: 5rem;
             color: $red;
             left: -430px;
             width: 140%;
+
+            @include media-breakpoint-down(lg) {
+                left: -350px;
+            }
+
+            @include media-breakpoint-down(md) {
+                left: -280px;
+                width: 150%;
+            }
+
+            @include media-breakpoint-down(sm) {
+                text-align: center;
+                line-height: 1;
+                padding-bottom: 10px;
+                left: 0;
+                width: 100%;
+            }
         }
 
         &__subtext {
             color: $dark-grey;
-            left: -310px;
+            left: -290px;
+
+            @include media-breakpoint-down(md) {
+                left: -240px;
+            }
+
+            @include media-breakpoint-down(sm) {
+                left: 0;
+            }
         }
 
         .button {
             left: -172px;
+
+            @include media-breakpoint-down(md) {
+                left: -115px;
+            }
+
+            @include media-breakpoint-down(sm) {
+                margin-top: 10px;
+                left: 0;
+            }
         }
 
         & * {
@@ -59,26 +109,86 @@
     // ---------- Supplier Section ---------- //
 
     .second {
+        .container {
+            @include media-breakpoint-down(md) {
+                max-width: 90%;
+            }
+        }
+
         h2 {
             margin: 60px 0;
         }
 
-        .supplier .card {
-            height: 200px;
-            box-shadow: 0 0 50px $shadow;
+        .supplier {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+            @include media-breakpoint-between(md, lg) {
+                grid-template-columns: repeat(2, minmax(300px, 1fr));
+            }
+
+            grid-auto-rows: 200px;
+            grid-gap: 20px;
+
+            &__item {
+                display: grid;
+                place-items: center;
+                box-shadow: 0 0 50px $shadow;
+                padding: 20px 0;
+
+                img {
+                    width: 15rem;
+                }
+
+                .no-logo {
+                    font-size: 2.5rem;
+                    padding: 0 15px;
+                }
+            }
         }
     }
 
     // ---------- Company Description Section ---------- //
 
     .third {
-        .content {
-            margin-top: 120px;
+        .w-75 {
+            @include media-breakpoint-down(md) {
+                width: 100% !important;
+            }
         }
 
-        h2 {
-            margin-bottom: 30px;
+        .content {
+            margin-top: 120px;
+
+            @include media-breakpoint-down(md) {
+                margin-top: 80px;
+            }
+
+            &__title {
+                margin-bottom: 30px;
+
+                @include media-breakpoint-down(md) {
+                    text-align: center;
+                    margin-top: 40px;
+                }
+
+            }
+
+            .button {
+                @include media-breakpoint-down(md) {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+
+            img {
+                @include media-breakpoint-down(md) {
+                    width: 200px !important;
+                }
+            }
         }
+
 
         .bg-text {
             font-family: 'Montserrat Bold';
@@ -102,18 +212,21 @@
 
         span {
             position: absolute;
-            top: 250px;
-            right: -10px;
+            top: 275px;
+            right: -35px;
             font-family: 'Montserrat Bold';
-            font-size: 20px;
+            font-size: 1.8rem;
             color: $black;
             opacity: 0.3;
             transform: rotate(90deg);
+
+            @include media-breakpoint-down(md) {
+                display: none;
+            }
         }
 
-
-
         .product--thumbnail {
+            position: relative;
             background: $white;
             box-shadow: 0 0 30px $shadow;
             height: 150px;
@@ -121,26 +234,52 @@
             transition: all 0.3s ease;
             cursor: pointer;
 
+            @include media-breakpoint-down(md) {
+                height: auto;
+                padding: 20px 0;
+            }
+
+            @include media-breakpoint-down(sm) {
+                padding: 15px 0;
+            }
+
             &:hover {
-                box-shadow: 0 0 50px $black;
-            }
+                box-shadow: 0 0 50px $shadow;
+                transform: scale(1.1);
+                z-index: 1;
 
-            .see-more__text {
-                font-size: 2rem;
-                color: $red;
-                font-family: 'Montserrat SemiBold';
-                margin-bottom: 4px;
-            }
-
-            img.see-more {
-                width: 30px;
-                @include media-breakpoint-down(sm) {
-                    width: 25px !important;
+                .product--thumbnail__icon {
+                    transform: rotate(180deg);
                 }
             }
 
-            img {
-                width: 100px;
+            &__text {
+                font-size: 1.7rem;
+                color: $red;
+                font-family: 'Montserrat SemiBold';
+                margin-bottom: 5px;
+                line-height: 1.1;
+
+                @include media-breakpoint-down(xs) {
+                    font-size: 1.5rem;
+                }
+            }
+
+            &__icon {
+                width: 2.8rem;
+                transition: all 0.3s ease;
+
+                @include media-breakpoint-down(sm) {
+                    width: 2rem;
+                }
+            }
+
+            &__image {
+                width: 80px;
+
+                @include media-breakpoint-down(xs) {
+                    width: 60px;
+                }
             }
         }
 
@@ -151,9 +290,25 @@
             height: 400px;
             border-radius: 5px;
 
-            img {
-                width: 50%;
+            @include media-breakpoint-down(md) {
+                height: 300px;
+            }
+
+            @include media-breakpoint-down(sm) {
                 height: auto;
+            }
+
+            &__image {
+                width: 55%;
+                height: auto;
+
+                @include media-breakpoint-down(sm) {
+                    padding: 6rem 0;
+                }
+
+                @include media-breakpoint-down(xs) {
+                    padding: 5rem 0;
+                }
             }
 
             &__name {
@@ -166,6 +321,16 @@
                 font-size: 80px;
                 color: $black;
                 opacity: 0.2;
+
+                @include media-breakpoint-down(md) {
+                    bottom: -30px;
+                    font-size: 6rem;
+                }
+
+                @include media-breakpoint-down(xs) {
+                    bottom: -30px;
+                    font-size: 45px;
+                }
             }
         }
 
@@ -176,6 +341,10 @@
             height: 120px;
             top: 0;
             right: 120px;
+
+            @include media-breakpoint-down(md) {
+                display: none;
+            }
         }
     }
 
@@ -193,13 +362,18 @@
             color: $white;
 
             &__icon {
-                width: 50px;
-                height: 50px;
+                width: 60px;
+                height: 60px;
             }
 
             &__title {
                 color: $white;
-                padding: 25px 0;
+                padding: 15px 0 25px 0;
+                margin: 0;
+
+                @include media-breakpoint-down(sm) {
+                    padding: 20px 0;
+                }
             }
 
             &__content {
@@ -208,202 +382,4 @@
             }
         }
     }
-}
-
-@include media-breakpoint-down(lg) {
-    #home {
-        .banner {
-            &__title {
-                left: -350px;
-            }
-        }
-    }
-}
-
-@include media-breakpoint-down(md) {
-
-    #home {
-        .first {
-
-            .shape-1,
-            .shape-2 {
-                width: 100%;
-            }
-        }
-
-        .banner {
-            &__title {
-                left: -280px;
-                width: 150%;
-            }
-
-            &__subtext {
-                left: -240px;
-            }
-
-            .button {
-                left: -115px;
-            }
-        }
-
-        .second {
-            .container {
-                max-width: 90%;
-            }
-
-            .card-deck {
-                .card {
-                    height: 150px;
-
-                    img {
-                        width: 100px;
-                    }
-                }
-            }
-        }
-    }
-
-    .third {
-        .w-75 {
-            width: 100% !important;
-        }
-
-        .content {
-            margin-top: 80px !important;
-
-            &__title {
-                text-align: center;
-                margin-top: 40px;
-            }
-
-            .button {
-                position: relative;
-                left: 50%;
-                transform: translateX(-50%);
-            }
-        }
-
-        img {
-            width: 200px !important;
-        }
-    }
-
-    .fourth {
-        .product--thumbnail {
-            height: 120px !important;
-
-            img {
-                width: 90px !important;
-            }
-        }
-
-        .product--preview {
-            height: auto !important;
-
-            &__name {
-                bottom: -30px !important;
-                font-size: 6rem !important;
-            }
-
-            img {
-                padding: 70px 0;
-            }
-        }
-
-        .vertical-line,
-        span {
-            display: none;
-        }
-    }
-
-}
-
-@include media-breakpoint-down(sm) {
-    #home {
-        .banner {
-            align-items: center;
-            background: linear-gradient(rgba($white, 0.85)), url(/img/background/home-banner_mobile.jpg);
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-
-            &__title {
-                text-align: center;
-                line-height: 1;
-                padding-bottom: 10px;
-                left: 0;
-                width: 100%;
-            }
-
-            &__subtext {
-                left: 0;
-            }
-
-            .button {
-                margin-top: 10px;
-                left: 0;
-            }
-        }
-    }
-
-
-    .fourth {
-        .product--thumbnail {
-            height: 100px !important;
-
-        }
-    }
-
-    .fifth {
-        .contact {
-            &__title {
-                padding: 20px 0 !important;
-            }
-        }
-    }
-}
-
-@include media-breakpoint-down(xs) {
-    .second {
-        .card-deck {
-            padding: 0 60px !important;
-
-            .card {
-                margin: 0 !important;
-
-                &:nth-child(2) {
-                    margin: 20px 0 !important;
-                }
-            }
-        }
-    }
-
-    .fourth {
-        .product--thumbnail {
-            height: 90px !important;
-
-            img {
-                width: 80px !important;
-            }
-        }
-
-        .product--preview {
-            height: auto !important;
-
-            &__name {
-                bottom: -30px !important;
-                font-size: 45px !important;
-            }
-
-            img {
-                padding: 70px 0;
-            }
-        }
-
-        .vertical-line,
-        span {
-            display: none;
-        }
-    }
-
 }

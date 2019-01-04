@@ -7,6 +7,10 @@
     &-brand {
         font: 3.3rem 'Montserrat Black';
         color: $red;
+        transition: all .3s ease;
+        &:hover {
+            color: darken($red, 10%);
+        }
     }
 
     &-toggler {

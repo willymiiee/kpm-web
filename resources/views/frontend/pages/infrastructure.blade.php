@@ -20,9 +20,21 @@ Infrastructure
                 </div>
             </div>
             <h4>Alamat :</h4>
-            <p>Jl. Kibarak Panji Sukasada, Singaraja, Bali</p>
-            <h4>Luas Tanah :</h4>
-            <p>1.360 m<sup>2</sup></p>
+            <p>Jl. Raya Denpasar - Gilimanuk, Banubiru, Negara</p>
+            <h4>Luas Gudang :</h4>
+            <p>600 m<sup>2</sup></p>
+            <h4>Kapasitas :</h4>
+            <p>12.000 CRT</p>
+        </div>
+        <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
+            <div class="warehouse__details--thumbnail d-flex justify-content-center">
+                <img src="/img/infrastructure/negara4.jpg">
+                <div class="warehouse__details--thumbnail--name">
+                    <h3>Gudang Singaraja</h3>
+                </div>
+            </div>
+            <h4>Alamat :</h4>
+            <p>Jl. Kibarak Panji, Singaraja</p>
             <h4>Luas Gudang :</h4>
             <p>1.200 m<sup>2</sup></p>
             <h4>Kapasitas :</h4>
@@ -32,99 +44,86 @@ Infrastructure
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
                 <img src="/img/infrastructure/negara4.jpg">
                 <div class="warehouse__details--thumbnail--name">
-                    <h3>Gudang Negara</h3>
+                    <h3>Gudang Sp. Kuta</h3>
                 </div>
             </div>
             <h4>Alamat :</h4>
-            <p>Jl. Kibarak Panji Sukasada, Singaraja, Bali</p>
-            <h4>Luas Tanah :</h4>
-            <p>1.360 m<sup>2</sup></p>
+            <p>Jl. Raya bypass I Gusti Ngurah Rai, Kelan, Tuban, Badung</p>
             <h4>Luas Gudang :</h4>
-            <p>1.200 m<sup>2</sup></p>
+            <p>400 m<sup>2</sup></p>
             <h4>Kapasitas :</h4>
-            <p>50.000 CRT</p>
+            <p>8.000 CRT</p>
         </div>
         <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
                 <img src="/img/infrastructure/negara4.jpg">
                 <div class="warehouse__details--thumbnail--name">
-                    <h3>Gudang Negara</h3>
+                    <h3>Gudang Bangli</h3>
                 </div>
             </div>
             <h4>Alamat :</h4>
-            <p>Jl. Kibarak Panji Sukasada, Singaraja, Bali</p>
-            <h4>Luas Tanah :</h4>
-            <p>1.360 m<sup>2</sup></p>
+            <p>Jl. Merdeka, Bangli</p>
             <h4>Luas Gudang :</h4>
-            <p>1.200 m<sup>2</sup></p>
+            <p>400 m<sup>2</sup></p>
             <h4>Kapasitas :</h4>
-            <p>50.000 CRT</p>
+            <p>8.000 CRT</p>
         </div>
         <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
                 <img src="/img/infrastructure/negara4.jpg">
                 <div class="warehouse__details--thumbnail--name">
-                    <h3>Gudang Negara</h3>
+                    <h3>Gudang Amlapura</h3>
                 </div>
             </div>
             <h4>Alamat :</h4>
-            <p>Jl. Kibarak Panji Sukasada, Singaraja, Bali</p>
-            <h4>Luas Tanah :</h4>
-            <p>1.360 m<sup>2</sup></p>
+            <p>Jl. Raya Subagan - Amlapura</p>
             <h4>Luas Gudang :</h4>
-            <p>1.200 m<sup>2</sup></p>
+            <p>200 m<sup>2</sup></p>
             <h4>Kapasitas :</h4>
-            <p>50.000 CRT</p>
+            <p>4.000 CRT</p>
         </div>
         <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
                 <img src="/img/infrastructure/negara4.jpg">
                 <div class="warehouse__details--thumbnail--name">
-                    <h3>Gudang Negara</h3>
+                    <h3>Gudang Klungkung</h3>
                 </div>
             </div>
             <h4>Alamat :</h4>
-            <p>Jl. Kibarak Panji Sukasada, Singaraja, Bali</p>
-            <h4>Luas Tanah :</h4>
-            <p>1.360 m<sup>2</sup></p>
+            <p>Jl. Kecubung - Klungkung</p>
             <h4>Luas Gudang :</h4>
-            <p>1.200 m<sup>2</sup></p>
+            <p>600 m<sup>2</sup></p>
             <h4>Kapasitas :</h4>
-            <p>50.000 CRT</p>
+            <p>12.000 CRT</p>
         </div>
         <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
                 <img src="/img/infrastructure/negara4.jpg">
                 <div class="warehouse__details--thumbnail--name">
-                    <h3>Gudang Negara</h3>
+                    <h3>Gudang Grosir (Kapal)</h3>
                 </div>
             </div>
             <h4>Alamat :</h4>
-            <p>Jl. Kibarak Panji Sukasada, Singaraja, Bali</p>
-            <h4>Luas Tanah :</h4>
-            <p>1.360 m<sup>2</sup></p>
+            <p>Jl. Kargo Permai N0. 77 Ubung Kaja, Denpasar</p>
             <h4>Luas Gudang :</h4>
-            <p>1.200 m<sup>2</sup></p>
+            <p>1.000 m<sup>2</sup></p>
             <h4>Kapasitas :</h4>
-            <p>50.000 CRT</p>
+            <p>40.000 CRT</p>
         </div>
         <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
                 <img src="/img/infrastructure/negara4.jpg">
                 <div class="warehouse__details--thumbnail--name">
-                    <h3>Gudang Negara</h3>
+                    <h3>Gudang Indomie (Kapal)</h3>
                 </div>
             </div>
             <h4>Alamat :</h4>
-            <p>Jl. Kibarak Panji Sukasada, Singaraja, Bali</p>
-            <h4>Luas Tanah :</h4>
-            <p>1.360 m<sup>2</sup></p>
+            <p>Jl. Angrek - Tegal Saat Kapal, Badung</p>
             <h4>Luas Gudang :</h4>
-            <p>1.200 m<sup>2</sup></p>
+            <p>1.600 m<sup>2</sup></p>
             <h4>Kapasitas :</h4>
-            <p>50.000 CRT</p>
+            <p>70.000 CRT</p>
         </div>
     </div>
-
 </div>
 @endsection
