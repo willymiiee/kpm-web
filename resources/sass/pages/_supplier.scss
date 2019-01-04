@@ -65,15 +65,11 @@
             text-align: center;
             display: inline-block;
             border-radius: 5px;
-            font-size: 3rem;
+            font-size: 2.5rem;
             background: $primary-color;
             color: $white;
             padding: 10px 20px;
             margin-bottom: 40px;
-
-            @include media-breakpoint-down(sm) {
-                font-size: 25px;
-            }
         }
     }
 }

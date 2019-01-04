@@ -11398,18 +11398,12 @@ p {
   text-align: center;
   display: inline-block;
   border-radius: 5px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   background: -webkit-gradient(linear, left top, right bottom, from(#ff5656), to(#ff7d1a));
   background: linear-gradient(to bottom right, #ff5656, #ff7d1a);
   color: #fcfcfc;
   padding: 10px 20px;
   margin-bottom: 40px;
-}
-
-@media (max-width: 767.98px) {
-  #supplier .supplier__title {
-    font-size: 25px;
-  }
 }
 
 #product .page-header {
