@@ -8,7 +8,7 @@ Infrastructure
 <div id="infrastructure">
     <header class="page-header">
         <div class="container">
-            <h1 class="page-header__title">Infrastructure</h1>
+            <h1 class="page-header__title">Infrastruktur</h1>
         </div>
     </header>
     <div class="warehouse container row mx-auto">
@@ -28,7 +28,7 @@ Infrastructure
         </div>
         <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
-                <img src="/img/infrastructure/negara4.jpg">
+                <img src="/img/infrastructure/singaraja1.jpg">
                 <div class="warehouse__details--thumbnail--name">
                     <h3>Gudang Singaraja</h3>
                 </div>

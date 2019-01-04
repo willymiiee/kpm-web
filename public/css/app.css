@@ -10561,6 +10561,11 @@ p {
   src: url(/fonts/Nunito/Nunito-Bold.ttf);
 }
 
+@font-face {
+  font-family: "Nunito ExtraBold";
+  src: url(/fonts/Nunito/Nunito-ExtraBold.ttf);
+}
+
 .navbar {
   background-color: #fcfcfc;
   -webkit-box-shadow: 0 0 3rem rgba(0, 0, 0, 0.2);
@@ -11358,7 +11363,11 @@ p {
 }
 
 #supplier .supplier__logo img {
-  height: 35px;
+  height: 40px;
+}
+
+#supplier .supplier__logo img[alt="Sukanda Djaya"] {
+  height: 80px;
 }
 
 #supplier .supplier__desc {
@@ -11367,8 +11376,16 @@ p {
   padding: 80px 40px 40px 40px;
 }
 
+@media (max-width: 767.98px) {
+  #supplier .supplier__desc {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 #supplier .supplier__desc .blockquote-footer {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-family: "Nunito Bold";
 }
 
 #supplier .supplier__title {
@@ -11389,11 +11406,6 @@ p {
 }
 
 @media (max-width: 767.98px) {
-  #supplier .supplier__desc {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   #supplier .supplier__title {
     font-size: 25px;
   }
@@ -11455,9 +11467,15 @@ p {
   border-radius: 5px;
 }
 
+#product .product__item--supplier img[alt="Sukanda Djaya"] {
+  margin: 5px;
+  height: 70px;
+  width: 70px;
+}
+
 #product .product__item--supplier img {
   margin: 10px 20px;
-  height: 18px;
+  height: 20px;
 }
 
 #product .product__item--image {
@@ -11466,13 +11484,16 @@ p {
 }
 
 #product .product__item--image img {
-  height: 150px;
+  height: 140px;
   margin-top: 70px;
   margin-bottom: 20px;
 }
 
 #product .product__item--name {
-  font-family: "Nunito Bold";
+  font-family: "Nunito ExtraBold";
+  font-size: 3rem;
+  padding: 1rem 0 2rem 0;
+  color: #ff3c3c;
 }
 
 #infrastructure .page-header {

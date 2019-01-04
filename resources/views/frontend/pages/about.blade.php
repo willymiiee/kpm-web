@@ -8,7 +8,7 @@ About Us
 <div class="about">
     <header class="page-header">
         <div class="container">
-            <h1 class="page-header__title">About Us</h1>
+            <h1 class="page-header__title">Tentang Kami</h1>
         </div>
     </header>
     <div class="content content-1 container row mx-auto">
@@ -21,7 +21,7 @@ About Us
         <div class="col-lg-6 offset-lg-1">
             <div class="position-relative">
                 <h4 class="content__counter">No. 01</h4>
-                <h2 class="content__title">We are one of the biggest food distributor in <span>Bali...</span></h2>
+                <h2 class="content__title">Kami adalah salah satu Distributor Makanan Terbesar <span>di Bali...</span></h2>
                 <p class="content__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
                     exercitationem delectus similique quam fuga praesentium minus, nemo veniam totam beatae et dolor
                     sapiente alias. Iste corporis officiis ipsum aliquid odio!</p>
@@ -32,7 +32,7 @@ About Us
         <div class="order-lg-1 order-2 col-lg-6">
             <div>
                 <h4 class="content__counter">No. 01</h4>
-                <h2 class="content__title">Vision & Mission</h2>
+                <h2 class="content__title">Visi & Misi</h2>
                 <div class="content__body">
                     <div class="media">
                         <img class="align-self-start mr-3" src="/img/icon/checkmark.svg">
@@ -61,7 +61,7 @@ About Us
     </div>
     <div class="content content-3 container">
         <h4 class="content__counter text-center">No. 03</h4>
-        <h2 class="content__title">Our History</h2>
+        <h2 class="content__title">Sejarah Perusahaan</h2>
         <div class="row mx-auto">
             <div class="col-12 history p-0">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quo fugit veniam velit unde ducimus

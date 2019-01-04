@@ -8,7 +8,7 @@ Product
 <div id="product">
     <header class="page-header">
         <div class="container">
-            <h1 class="page-header__title">Our Product</h1>
+            <h1 class="page-header__title">Produk Kami</h1>
         </div>
     </header>
     <div class="product container">
@@ -41,7 +41,7 @@ Product
         </div>
         <div class="product__item">
             <div class="product__item--supplier">
-                <img src="/img/supplier/mars.svg" alt="Mars Inc.">
+                <img src="/img/supplier/sukanda-djaya.jpg" alt="Sukanda Djaya">
             </div>
             <div class="product__item--image">
                 <img src="/img/products/doublemint.png" alt="Doublemint">
@@ -59,7 +59,7 @@ Product
         </div>
         <div class="product__item">
             <div class="product__item--supplier">
-                <img src="/img/supplier/mars.svg" alt="Mars Inc.">
+                <img src="/img/supplier/indofood.svg" alt="Indofood">
             </div>
             <div class="product__item--image">
                 <img src="/img/products/pepsi.png" alt="Pepsi">

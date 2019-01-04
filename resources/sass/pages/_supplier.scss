@@ -18,7 +18,6 @@
     }
 
     .supplier {
-
         &__logo,
         &__desc {
             box-shadow: 0 0 30px $shadow;
@@ -35,7 +34,10 @@
             transform: translateX(-50%);
 
             img {
-                height: 35px;
+                height: 40px;
+            }
+            img[alt="Sukanda Djaya"] {
+                height: 80px;
             }
         }
 
@@ -44,8 +46,14 @@
             margin-top: 80px;
             padding: 80px 40px 40px 40px;
 
+            @include media-breakpoint-down(sm) {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
             .blockquote-footer {
-                font-size: 1rem;
+                font-size: 1.2rem;
+                font-family: 'Nunito Bold';
             }
         }
 
@@ -62,20 +70,8 @@
             color: $white;
             padding: 10px 20px;
             margin-bottom: 40px;
-        }
-    }
-}
 
-@include media-breakpoint-down(sm) {
-    #supplier {
-
-        .supplier {
-            &__desc {
-                padding-left: 20px;
-                padding-right: 20px;
-            }
-
-            &__title {
+            @include media-breakpoint-down(sm) {
                 font-size: 25px;
             }
         }
