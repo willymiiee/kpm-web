@@ -3,6 +3,6 @@ $dark-grey: rgba(152, 152, 152, 1);
 $white: rgba(252, 252, 252, 1);
 $red: rgba(255, 60, 60, 1);
 $black: rgba(0, 0, 0, 1);
-$primary-color: linear-gradient(to bottom right, $red, #FF6F00);
+$primary-color: linear-gradient(to bottom right, lighten($red, 5%), lighten(#FF6F00, 5%));
 
 $shadow: rgba(0, 0, 0, 0.2);

@@ -10645,8 +10645,8 @@ p {
 }
 
 .button.fill {
-  background: -webkit-gradient(linear, left top, right bottom, from(#ff3c3c), to(#FF6F00));
-  background: linear-gradient(to bottom right, #ff3c3c, #FF6F00);
+  background: -webkit-gradient(linear, left top, right bottom, from(#ff5656), to(#ff7d1a));
+  background: linear-gradient(to bottom right, #ff5656, #ff7d1a);
   color: #fcfcfc;
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
@@ -10768,6 +10768,7 @@ p {
     padding-bottom: 10px;
     left: 0;
     width: 100%;
+    font-size: 4.5rem;
   }
 }
 
@@ -11188,8 +11189,8 @@ p {
   position: relative;
   width: 400px;
   height: 500px;
-  background: -webkit-gradient(linear, left top, right bottom, from(#ff3c3c), to(#FF6F00));
-  background: linear-gradient(to bottom right, #ff3c3c, #FF6F00);
+  background: -webkit-gradient(linear, left top, right bottom, from(#ff5656), to(#ff7d1a));
+  background: linear-gradient(to bottom right, #ff5656, #ff7d1a);
   border-radius: 5px;
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
@@ -11254,8 +11255,8 @@ p {
 }
 
 .about .content-3 .history {
-  background: -webkit-gradient(linear, left top, right bottom, from(#ff3c3c), to(#FF6F00));
-  background: linear-gradient(to bottom right, #ff3c3c, #FF6F00);
+  background: -webkit-gradient(linear, left top, right bottom, from(#ff5656), to(#ff7d1a));
+  background: linear-gradient(to bottom right, #ff5656, #ff7d1a);
   border-radius: 5px;
   margin-top: 40px;
 }
@@ -11398,8 +11399,8 @@ p {
   display: inline-block;
   border-radius: 5px;
   font-size: 3rem;
-  background: -webkit-gradient(linear, left top, right bottom, from(#ff3c3c), to(#FF6F00));
-  background: linear-gradient(to bottom right, #ff3c3c, #FF6F00);
+  background: -webkit-gradient(linear, left top, right bottom, from(#ff5656), to(#ff7d1a));
+  background: linear-gradient(to bottom right, #ff5656, #ff7d1a);
   color: #fcfcfc;
   padding: 10px 20px;
   margin-bottom: 40px;
@@ -11575,8 +11576,8 @@ p {
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   z-index: 2;
-  background: -webkit-gradient(linear, left top, right bottom, from(#ff3c3c), to(#FF6F00));
-  background: linear-gradient(to bottom right, #ff3c3c, #FF6F00);
+  background: -webkit-gradient(linear, left top, right bottom, from(#ff5656), to(#ff7d1a));
+  background: linear-gradient(to bottom right, #ff5656, #ff7d1a);
   text-align: center;
   bottom: -22.5px;
   max-width: 95%;
