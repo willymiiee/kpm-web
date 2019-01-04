@@ -31,7 +31,7 @@ About Us
     <div class="content content-2 container row mx-auto">
         <div class="order-lg-1 order-2 col-lg-6">
             <div>
-                <h4 class="content__counter">No. 01</h4>
+                <h4 class="content__counter">No. 02</h4>
                 <h2 class="content__title">Visi & Misi</h2>
                 <div class="content__body">
                     <div class="media">

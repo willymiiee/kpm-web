@@ -104,7 +104,7 @@ Infrastructure
                 </div>
             </div>
             <h4>Alamat :</h4>
-            <p>Jl. Kargo Permai N0. 77 Ubung Kaja, Denpasar</p>
+            <p>Jl. Kargo Permai No. 77 Ubung Kaja, Denpasar</p>
             <h4>Luas Gudang :</h4>
             <p>1.000 m<sup>2</sup></p>
             <h4>Kapasitas :</h4>
