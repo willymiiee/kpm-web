@@ -11485,16 +11485,21 @@ p {
 }
 
 #product .product__item--image img {
-  height: 140px;
-  margin-top: 70px;
-  margin-bottom: 20px;
+  height: 14rem;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
 }
 
 #product .product__item--name {
   font-family: "Nunito ExtraBold";
-  font-size: 3rem;
-  padding: 1rem 0 2rem 0;
-  color: #ff3c3c;
+  font-size: 2rem;
+  background: -webkit-gradient(linear, left top, right bottom, from(#ff5656), to(#ff7d1a));
+  background: linear-gradient(to bottom right, #ff5656, #ff7d1a);
+  padding: 1rem 2rem;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin: 0;
+  color: #fcfcfc;
 }
 
 #infrastructure .page-header {
