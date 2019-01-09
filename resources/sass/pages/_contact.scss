@@ -1,0 +1,62 @@
+.contact {
+    .page-header {
+
+        // ---------- Only use images that located in '/public/img/background/...'
+        // ---------- and just write the file name in a SINGLE QUOTE, 
+        // ---------- first parameter for image that load on DESKTOP
+        // ---------- second parameter for image that load on MOBILE
+
+        @include page-header('contact_desktop.jpg', 'contact_mobile.jpg');
+    }
+
+    .main-contact {
+        width: 90%;
+        margin: 0 auto;
+
+        @include media-breakpoint-down(md) {
+            width: 100%;
+        }
+
+        .card {
+            &-header {
+                cursor: pointer;
+                background: $light-grey; 
+                transition: all 0.3s ease;
+
+                &[aria-expanded="true"] {
+                    background: lighten($red, 5%);
+
+                    h4 {
+                        color: $white;
+                    }
+                }
+
+                &:hover {
+                    background: $red;
+
+                    h4 {
+                        color: $white;
+                    }
+                }
+            }
+
+            &-body {
+                span {
+                    background: $primary-color;
+                    color: $white;
+                    border-radius: .5rem;
+                    padding: .2rem .8rem;
+                    margin-bottom: .4rem;
+                    display: inline-block;
+                }
+
+                .media {
+                    img {
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

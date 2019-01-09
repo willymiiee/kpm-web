@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')
 
 @section('title')
-Homepage
+Beranda
 @endsection
 
 @section('body')
@@ -48,7 +48,7 @@ Homepage
             <div class="order-md-1 order-2 col-md-7 d-md-flex justify-content-md-center align-items-md-center">
                 <div class="w-75 position-relative">
                     <span class="bg-text position-absolute">N</span>
-                    <h2 class="content__title">Jaringan yang Luas di Bali</h2>
+                    <h2 class="content__title">Jaringan Luas di Pulau Bali</h2>
                     <p class="content__body">Anda berada di Bali ? Tenang saja ! Kami akan mendistribusikan produk kami
                         kepada anda dimanapun anda berada, berdiri sejak tahun (tahun berdirinya perusahaan) membuat
                         jaringan kami hampir seluas pulau Bali itu sendiri.</p>
@@ -122,7 +122,7 @@ Homepage
                 <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
             </svg>
             <h2 class="content-title contact__title">Hubungi Kami</h2>
-            <span class="contact__content">0361 9006481<br>0361 9006483</span>
+            <span class="contact__content">(0361) 9006481<br>(0361) 9006483</span>
         </div>
     </section>
 </div>

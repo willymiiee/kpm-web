@@ -22,4 +22,7 @@ class PageController extends Controller
     public function showProducts(){
         return view('frontend.pages.products');
     }
+    public function showContact(){
+        return view('frontend.pages.contact');
+    }
 }

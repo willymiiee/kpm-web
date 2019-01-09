@@ -16,3 +16,4 @@ Route::get('/tentang-kami', 'Frontend\PageController@showAbout');
 Route::get('/produk', 'Frontend\PageController@showProducts');
 Route::get('/principal', 'Frontend\PageController@showPrinciple');
 Route::get('/infrastruktur', 'Frontend\PageController@showInfrastructure');
+Route::get('/kontak', 'Frontend\PageController@showContact');

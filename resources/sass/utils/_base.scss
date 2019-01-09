@@ -30,24 +30,22 @@ h2 {
     color: $red;
 }
 
+h3 {
+    font-family: 'Montserrat ExtraBold';
+    font-size: 3rem;
+    color: $red;
+}
+
+h4 {
+    font-family: 'Montserrat ExtraBold';
+    font-size: 2.5rem;
+    color: $red;
+}
+
 // Text Body / Content
 
 p {
     font-family: 'Nunito SemiBold';
     font-size: 1.7rem;
     color: $black;
-}
-
-// Scroll Animation Fade In
-
-[data-scroll] {
-    transition: opacity 1s;
-}
-
-[data-scroll="in"] {
-    opacity: 1;
-}
-
-[data-scroll="out"] {
-    opacity: 0;
 }

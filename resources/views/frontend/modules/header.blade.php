@@ -12,6 +12,7 @@
                 <a class="nav-item nav-link px-4" href="{{ url('/produk') }}">Produk</a>
                 <a class="nav-item nav-link px-4" href="{{ url('/infrastruktur') }}">Infrastruktur</a>
                 <a class="nav-item nav-link px-4" href="{{ url('/principal') }}">Principal</a>
+                <a class="nav-item nav-link px-4" href="{{ url('/kontak') }}">Hubungi Kami</a>
             </div>
         </div>
     </div>

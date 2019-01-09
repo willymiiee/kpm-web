@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')
 
 @section('title')
-About Us
+Tentang Kami
 @endsection
 
 @section('body')
@@ -18,13 +18,13 @@ About Us
                 <img src="/img/background/contact_desktop.jpg">
             </div>
         </div>
-        <div class="col-lg-6 offset-lg-1">
+        <div class="col-lg-6 offset-lg-1 d-flex justify-content-center align-items-center">
             <div class="position-relative">
                 <h4 class="content__counter">No. 01</h4>
                 <h2 class="content__title">Kami adalah salah satu Distributor Makanan Terbesar <span>di Bali...</span></h2>
-                <p class="content__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                {{-- <p class="content__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
                     exercitationem delectus similique quam fuga praesentium minus, nemo veniam totam beatae et dolor
-                    sapiente alias. Iste corporis officiis ipsum aliquid odio!</p>
+                    sapiente alias. Iste corporis officiis ipsum aliquid odio!</p> --}}
             </div>
         </div>
     </div>
@@ -32,24 +32,45 @@ About Us
         <div class="order-lg-1 order-2 col-lg-6">
             <div>
                 <h4 class="content__counter">No. 02</h4>
-                <h2 class="content__title">Visi & Misi</h2>
+                <h2 class="content__title">Visi</h2>
+                <div class="content__body mb-4">
+                    <div class="media">
+                        <img class="align-self-start mr-3" src="/img/icon/checkmark.svg">
+                        <div class="media-body">
+                            <p>Menjadi distributor pilihan pertama bagi principal, outlet dan konsumen.</p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="content__title">Misi</h2>
                 <div class="content__body">
                     <div class="media">
                         <img class="align-self-start mr-3" src="/img/icon/checkmark.svg">
                         <div class="media-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, et.</p>
+                            <p>Menjadi yang pertama dalam distribusi produk.</p>
                         </div>
                     </div>
                     <div class="media">
                         <img class="align-self-start mr-3" src="/img/icon/checkmark.svg">
                         <div class="media-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, et.</p>
+                            <p>Menjadi rekan terpercaya dari principal dan outlet.</p>
                         </div>
                     </div>
                     <div class="media">
                         <img class="align-self-start mr-3" src="/img/icon/checkmark.svg">
                         <div class="media-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, et.</p>
+                            <p>Mengembangkan karyawan berkompeten tinggi dengan lingkungan kerja yang baik.</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <img class="align-self-start mr-3" src="/img/icon/checkmark.svg">
+                        <div class="media-body">
+                            <p>Menghilangkan hal-hal yang tidak memberikan nilai tambah dalam operasional.</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <img class="align-self-start mr-3" src="/img/icon/checkmark.svg">
+                        <div class="media-body">
+                            <p>Mendapatkan kehormatan karena peduli dengan masyarakat dan lingkungan.</p>
                         </div>
                     </div>
                 </div>
@@ -64,14 +85,7 @@ About Us
         <h2 class="content__title">Sejarah Perusahaan</h2>
         <div class="row mx-auto">
             <div class="col-12 history p-0">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quo fugit veniam velit unde ducimus
-                    tempora ab vero officiis adipisci, molestias sint. Soluta adipisci consectetur vero! Vel quisquam
-                    aliquid deleniti enim dolorum ex illum beatae quis molestias exercitationem est adipisci tenetur a
-                    debitis, quas praesentium repudiandae vero officia repellat at! Facere cumque accusamus soluta.
-                    Nulla odio facere at nostrum consequuntur! Labore suscipit ut optio, quibusdam nihil libero veniam
-                    corporis sapiente similique sit rerum quam hic! Eligendi error explicabo fugiat repellendus nulla
-                    facere quasi cumque fuga aut nobis, perferendis quidem nam laborum cupiditate? Nam sapiente eum
-                    nobis autem odio dignissimos aut.</p>
+                <p>Usaha ini pertama kali dimulai ketika An Selamat membawa 1 mobil box Indomie dari Surabaya ke Bali pada tahun 1980. Dengan keuletan dan kegigihannya memperkenalkan Indomie di pasar Bali, Indomie menjadi dikenal dan diterima oleh masyarakat Bali. Tahun 2001 PT. Kembar Putra Makmur dibentuk untuk menjadi wadah dari usaha distribusi ini. Sejak saat itu, beberapa principal bergabung untuk menikmati jaringan distribusi yang sudah dikembangkan selama puluhan tahun. Sekarang, PT. Kembar Putra Makmur mendistribusikan lebih dari 100 jenis produk ke seluruh Pulau Bali.</p>
             </div>
         </div>
     </div>

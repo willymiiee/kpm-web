@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')
 
 @section('title')
-Our Supplier
+Principal
 @endsection
 
 @section('body')
@@ -20,7 +20,7 @@ Our Supplier
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aliquid recusandae veritatis aut
                 laudantium non ex quos esse sequi blanditiis iste dignissimos, laborum temporibus optio iusto, quisquam
                 vitae voluptatibus! Dolor consequatur possimus enim aperiam recusandae! Temporibus unde libero nam cum.</p>
-            <footer class="blockquote-footer">Since 1983</footer>
+            <footer class="blockquote-footer">Sejak 1983</footer>
         </div>
     </div>
     <div class="supplier container">
@@ -32,7 +32,7 @@ Our Supplier
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aliquid recusandae veritatis aut
                 laudantium non ex quos esse sequi blanditiis iste dignissimos, laborum temporibus optio iusto, quisquam
                 vitae voluptatibus! Dolor consequatur possimus enim aperiam recusandae! Temporibus unde libero nam cum.</p>
-            <footer class="blockquote-footer">Since 2013</footer>
+            <footer class="blockquote-footer">Sejak 2013</footer>
         </div>
     </div>
     <div class="supplier container">
@@ -44,7 +44,7 @@ Our Supplier
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aliquid recusandae veritatis aut
                 laudantium non ex quos esse sequi blanditiis iste dignissimos, laborum temporibus optio iusto, quisquam
                 vitae voluptatibus! Dolor consequatur possimus enim aperiam recusandae! Temporibus unde libero nam cum.</p>
-            <footer class="blockquote-footer">Since 2008</footer>
+            <footer class="blockquote-footer">Sejak 2008</footer>
         </div>
     </div>
     <div class="supplier container">
@@ -56,7 +56,7 @@ Our Supplier
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aliquid recusandae veritatis aut
                 laudantium non ex quos esse sequi blanditiis iste dignissimos, laborum temporibus optio iusto, quisquam
                 vitae voluptatibus! Dolor consequatur possimus enim aperiam recusandae! Temporibus unde libero nam cum.</p>
-            <footer class="blockquote-footer">Since 2013</footer>
+            <footer class="blockquote-footer">Sejak 2013</footer>
         </div>
     </div>
     <div class="supplier container">
@@ -68,7 +68,7 @@ Our Supplier
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aliquid recusandae veritatis aut
                 laudantium non ex quos esse sequi blanditiis iste dignissimos, laborum temporibus optio iusto, quisquam
                 vitae voluptatibus! Dolor consequatur possimus enim aperiam recusandae! Temporibus unde libero nam cum.</p>
-            <footer class="blockquote-footer">Since 2016</footer>
+            <footer class="blockquote-footer">Sejak 2016</footer>
         </div>
     </div>
 </div>

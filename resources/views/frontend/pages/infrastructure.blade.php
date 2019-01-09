@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')
 
 @section('title')
-Infrastructure
+Infrastruktur
 @endsection
 
 @section('body')

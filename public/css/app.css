@@ -10497,23 +10497,22 @@ h2 {
   color: #ff3c3c;
 }
 
+h3 {
+  font-family: "Montserrat ExtraBold";
+  font-size: 3rem;
+  color: #ff3c3c;
+}
+
+h4 {
+  font-family: "Montserrat ExtraBold";
+  font-size: 2.5rem;
+  color: #ff3c3c;
+}
+
 p {
   font-family: "Nunito SemiBold";
   font-size: 1.7rem;
   color: black;
-}
-
-[data-scroll] {
-  -webkit-transition: opacity 1s;
-  transition: opacity 1s;
-}
-
-[data-scroll=in] {
-  opacity: 1;
-}
-
-[data-scroll=out] {
-  opacity: 0;
 }
 
 @font-face {
@@ -10610,14 +10609,14 @@ p {
 @media (max-width: 767.98px) {
   .navbar .nav-item {
     padding: 2rem 0;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 }
 
 .footer {
   background-color: #fcfcfc;
   color: #989898;
-  font: 1.3rem "Montserrat SemiBold";
+  font: 1.2rem "Montserrat SemiBold";
   padding: 5rem 0;
 }
 
@@ -11182,7 +11181,7 @@ p {
 }
 
 .about .content__body {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .about .content-1 .bg-shadow {
@@ -11220,7 +11219,7 @@ p {
 }
 
 .about .content-2 .media img {
-  width: 25px !important;
+  width: 20px !important;
 }
 
 .about .content-2 .media-body {
@@ -11364,7 +11363,7 @@ p {
 }
 
 #supplier .supplier__logo img {
-  height: 40px;
+  height: 38px;
 }
 
 #supplier .supplier__logo img[alt="Sukanda Djaya"] {
@@ -11588,5 +11587,85 @@ p {
   font-size: 25px;
   margin: 0;
   padding: 10px 30px;
+}
+
+.contact .page-header {
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/contact_desktop.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/contact_desktop.jpg") no-repeat center;
+  background-size: cover;
+  height: 35rem;
+}
+
+@media (max-width: 767.98px) {
+  .contact .page-header {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/contact_mobile.jpg") no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/contact_mobile.jpg") no-repeat center;
+    background-size: cover;
+    height: 28rem;
+  }
+}
+
+.contact .page-header__title {
+  position: absolute;
+  bottom: 3rem;
+  font: 8rem "Montserrat Black";
+  color: #fcfcfc;
+}
+
+@media (max-width: 767.98px) {
+  .contact .page-header__title {
+    bottom: 1.5rem;
+    font-size: 6rem;
+  }
+}
+
+.contact .main-contact {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 991.98px) {
+  .contact .main-contact {
+    width: 100%;
+  }
+}
+
+.contact .main-contact .card-header {
+  cursor: pointer;
+  background: #ebebeb;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.contact .main-contact .card-header[aria-expanded=true] {
+  background: #ff5656;
+}
+
+.contact .main-contact .card-header[aria-expanded=true] h4 {
+  color: #fcfcfc;
+}
+
+.contact .main-contact .card-header:hover {
+  background: #ff3c3c;
+}
+
+.contact .main-contact .card-header:hover h4 {
+  color: #fcfcfc;
+}
+
+.contact .main-contact .card-body span {
+  background: -webkit-gradient(linear, left top, right bottom, from(#ff5656), to(#ff7d1a));
+  background: linear-gradient(to bottom right, #ff5656, #ff7d1a);
+  color: #fcfcfc;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.8rem;
+  margin-bottom: 0.4rem;
+  display: inline-block;
+}
+
+.contact .main-contact .card-body .media img {
+  width: 16px;
+  height: 16px;
 }
 
