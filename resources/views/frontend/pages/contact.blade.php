@@ -35,7 +35,7 @@ Hubungi Kami
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/whatsapp-brands.svg">
                             <div class="media-body">
-                                <p class="m-0">+62 813-3830-9182</p>
+                                <p class="m-0">+62 877-6251-7120</p>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ Hubungi Kami
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/whatsapp-brands.svg">
                             <div class="media-body">
-                                <p class="m-0">+62 813-3830-9182</p>
+                                <p class="m-0">+62 877-6251-7120</p>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ Hubungi Kami
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/whatsapp-brands.svg">
                             <div class="media-body">
-                                <p class="m-0">+62 813-3830-9182</p>
+                                <p class="m-0">+62 877-6251-7120</p>
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ Hubungi Kami
                 </div>
                 <div id="contact-4" class="collapse" data-parent="#contact-accordion">
                     <div class="card-body">
-                        <p>Penanggung Jawab : Bapak Kertiyasa</p>
+                        <p>Penanggung Jawab : Bapak Wayan Kertiyasa</p>
                         <p>Produk yang Tersedia : <span>Snickers</span> , <span>Pop Mie</span></p>
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/phone-call.svg">
@@ -132,7 +132,7 @@ Hubungi Kami
                 </div>
                 <div id="contact-5" class="collapse" data-parent="#contact-accordion">
                     <div class="card-body">
-                        <p>Penanggung Jawab : Bapak Kertiyasa</p>
+                        <p>Penanggung Jawab : Bapak Wayan Kertiyasa</p>
                         <p>Produk yang Tersedia : <span>Snickers</span> , <span>Pop Mie</span></p>
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/phone-call.svg">
@@ -159,7 +159,7 @@ Hubungi Kami
                 </div>
                 <div id="contact-6" class="collapse" data-parent="#contact-accordion">
                     <div class="card-body">
-                        <p>Penanggung Jawab : Bapak Kertiyasa</p>
+                        <p>Penanggung Jawab : Bapak Wayan Kertiyasa</p>
                         <p>Produk yang Tersedia : <span>Snickers</span> , <span>Pop Mie</span></p>
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/phone-call.svg">
@@ -195,7 +195,8 @@ Hubungi Kami
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/whatsapp-brands.svg">
                             <div class="media-body">
-                                <p class="m-0">+62 819-9985-3051</p>
+                                <p class="m-0">+62 819-9985-3051 (Putu Arianta)</p>
+                                <p class="m-0">+62 819-9964-0111 (Dewa Maharsika)</p>
                             </div>
                         </div>
                     </div>

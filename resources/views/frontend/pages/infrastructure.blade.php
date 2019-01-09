@@ -42,7 +42,7 @@ Infrastruktur
         </div>
         <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
-                <img src="/img/infrastructure/negara4.jpg">
+                <img src="/img/infrastructure/kuta1.jpeg">
                 <div class="warehouse__details--thumbnail--name">
                     <h3>Gudang Sp. Kuta</h3>
                 </div>
@@ -56,7 +56,7 @@ Infrastruktur
         </div>
         <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
-                <img src="/img/infrastructure/negara4.jpg">
+                <img src="/img/infrastructure/bangli2.jpeg">
                 <div class="warehouse__details--thumbnail--name">
                     <h3>Gudang Bangli</h3>
                 </div>
@@ -70,9 +70,9 @@ Infrastruktur
         </div>
         <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
-                <img src="/img/infrastructure/negara4.jpg">
+                <img src="/img/infrastructure/karangasem1.jpeg">
                 <div class="warehouse__details--thumbnail--name">
-                    <h3>Gudang Amlapura</h3>
+                    <h3>Gudang Amlapura (Karangasem)</h3>
                 </div>
             </div>
             <h4>Alamat :</h4>
@@ -84,7 +84,7 @@ Infrastruktur
         </div>
         <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
-                <img src="/img/infrastructure/negara4.jpg">
+                <img src="/img/infrastructure/klungkung1.jpeg">
                 <div class="warehouse__details--thumbnail--name">
                     <h3>Gudang Klungkung</h3>
                 </div>
@@ -98,23 +98,9 @@ Infrastruktur
         </div>
         <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
-                <img src="/img/infrastructure/negara4.jpg">
+                <img src="/img/infrastructure/denpasar1.jpeg">
                 <div class="warehouse__details--thumbnail--name">
-                    <h3>Gudang Grosir (Kapal)</h3>
-                </div>
-            </div>
-            <h4>Alamat :</h4>
-            <p>Jl. Kargo Permai No. 77 Ubung Kaja, Denpasar</p>
-            <h4>Luas Gudang :</h4>
-            <p>1.000 m<sup>2</sup></p>
-            <h4>Kapasitas :</h4>
-            <p>40.000 CRT</p>
-        </div>
-        <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
-            <div class="warehouse__details--thumbnail d-flex justify-content-center">
-                <img src="/img/infrastructure/negara4.jpg">
-                <div class="warehouse__details--thumbnail--name">
-                    <h3>Gudang Indomie (Kapal)</h3>
+                    <h3>Gudang Denpasar / HCO</h3>
                 </div>
             </div>
             <h4>Alamat :</h4>
