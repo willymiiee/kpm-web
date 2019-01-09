@@ -3,6 +3,13 @@
     color: $dark-grey;
     font: 1.2rem 'Montserrat SemiBold';
     padding: 5rem 0;
+    &__copyright-contact {
+        p {
+            font-size: 1.5rem;
+            color: $dark-grey;
+            font-family: 'Montserrat SemiBold';
+        }
+    }
 
     &__nav-link {
         color: $dark-grey;

@@ -10620,6 +10620,12 @@ p {
   padding: 5rem 0;
 }
 
+.footer__copyright-contact p {
+  font-size: 1.5rem;
+  color: #989898;
+  font-family: "Montserrat SemiBold";
+}
+
 .footer__nav-link {
   color: #989898;
   text-decoration: none !important;
