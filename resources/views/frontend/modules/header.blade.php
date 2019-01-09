@@ -8,10 +8,10 @@
         <div class="collapse navbar-collapse" id="nav-collapse">
             <div class="navbar-nav text-center ml-auto my-3 my-md-0">
                 <a class="nav-item nav-link px-4" href="{{ url('/') }}">Beranda</a>
-                <a class="nav-item nav-link px-4" href="{{ url('/about') }}">Tentang Kami</a>
-                <a class="nav-item nav-link px-4" href="{{ url('/product') }}">Produk</a>
-                <a class="nav-item nav-link px-4" href="{{ url('/infrastructure') }}">Infrastruktur</a>
-                <a class="nav-item nav-link px-4" href="{{ url('/supplier') }}">Supplier</a>
+                <a class="nav-item nav-link px-4" href="{{ url('/tentang-kami') }}">Tentang Kami</a>
+                <a class="nav-item nav-link px-4" href="{{ url('/produk') }}">Produk</a>
+                <a class="nav-item nav-link px-4" href="{{ url('/infrastruktur') }}">Infrastruktur</a>
+                <a class="nav-item nav-link px-4" href="{{ url('/principal') }}">Principal</a>
             </div>
         </div>
     </div>

@@ -13,13 +13,13 @@ class PageController extends Controller
     public function showAbout(){
         return view('frontend.pages.about');
     }
-    public function showSupplier(){
-        return view('frontend.pages.supplier');
+    public function showPrinciple(){
+        return view('frontend.pages.principle');
     }
     public function showInfrastructure(){
         return view('frontend.pages.infrastructure');
     }
-    public function showProduct(){
-        return view('frontend.pages.product');
+    public function showProducts(){
+        return view('frontend.pages.products');
     }
 }

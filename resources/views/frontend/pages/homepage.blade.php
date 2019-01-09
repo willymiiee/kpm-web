@@ -24,7 +24,7 @@ Homepage
     {{---------- Supplier Section ----------}}
 
     <section class="second">
-        <h2 class="text-center">Supplier Terbaik Kami</h2>
+        <h2 class="text-center">Principal Terbaik Kami</h2>
         <div class="supplier container">
             <div class="supplier__item">
                 <img src="/img/supplier/indofood.svg" alt="Indofood">

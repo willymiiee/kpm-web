@@ -5,10 +5,10 @@
         </div>
         <div class="footer__nav d-none d-md-block">
             <a class="footer__nav-link mr-4" href="{{ url('/') }}">Beranda</a>
-            <a class="footer__nav-link mx-4" href="{{ url('/about') }}">Tentang Kami</a>
-            <a class="footer__nav-link mx-4" href="{{ url('/product') }}">Produk</a>
-            <a class="footer__nav-link mx-4" href="{{ url('/infrastructure') }}">Infrastruktur</a>
-            <a class="footer__nav-link ml-4" href="{{ url('/supplier') }}">Supplier</a>
+            <a class="footer__nav-link mx-4" href="{{ url('/tentang-kami') }}">Tentang Kami</a>
+            <a class="footer__nav-link mx-4" href="{{ url('/produk') }}">Produk</a>
+            <a class="footer__nav-link mx-4" href="{{ url('/infrastruktur') }}">Infrastruktur</a>
+            <a class="footer__nav-link ml-4" href="{{ url('/principal') }}">Principal</a>
         </div>
     </div>
 </footer>

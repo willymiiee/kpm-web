@@ -12,7 +12,7 @@
 */
 
 Route::get('/', 'Frontend\PageController@showHomepage');
-Route::get('/about', 'Frontend\PageController@showAbout');
-Route::get('/product', 'Frontend\PageController@showProduct');
-Route::get('/supplier', 'Frontend\PageController@showSupplier');
-Route::get('/infrastructure', 'Frontend\PageController@showInfrastructure');
+Route::get('/tentang-kami', 'Frontend\PageController@showAbout');
+Route::get('/produk', 'Frontend\PageController@showProducts');
+Route::get('/principal', 'Frontend\PageController@showPrinciple');
+Route::get('/infrastruktur', 'Frontend\PageController@showInfrastructure');

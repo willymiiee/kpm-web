@@ -8,7 +8,7 @@ Our Supplier
 <div id="supplier">
     <header class="page-header">
         <div class="container">
-            <h1 class="page-header__title">Supplier</h1>
+            <h1 class="page-header__title">Principal</h1>
         </div>
     </header>
     <div class="supplier container">
@@ -48,10 +48,10 @@ Our Supplier
         </div>
     </div>
     <div class="supplier container">
-        <div class="supplier__desc">
-            <div class="supplier__logo d-flex justify-content-center align-items-center">
-                {{-- <img src="/img/supplier/mars.svg" alt="Mars Inc."> --}}
-            </div>
+        <div class="supplier__desc pt-5">
+            {{-- <div class="supplier__logo d-flex justify-content-center align-items-center">
+                <img src="/img/supplier/mars.svg" alt="Mars Inc.">
+            </div> --}}
             <h2 class="supplier__title">PT. Vixon Indonesia</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aliquid recusandae veritatis aut
                 laudantium non ex quos esse sequi blanditiis iste dignissimos, laborum temporibus optio iusto, quisquam
