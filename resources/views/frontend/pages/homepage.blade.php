@@ -50,7 +50,7 @@ Beranda
                     <span class="bg-text position-absolute">N</span>
                     <h2 class="content__title">Jaringan Luas di Pulau Bali</h2>
                     <p class="content__body">Anda berada di Bali ? Tenang saja ! Kami akan mendistribusikan produk kami
-                        kepada anda dimanapun anda berada, berdiri sejak tahun 2001 membuat
+                        kepada anda dimanapun anda berada, berdiri sejak tahun 1980 membuat
                         jaringan kami hampir seluas pulau Bali itu sendiri.</p>
                 </div>
             </div>
