@@ -11662,6 +11662,11 @@ p {
   color: #fcfcfc;
 }
 
+.contact .main-contact .card-body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .contact .main-contact .card-body span {
   background: -webkit-gradient(linear, left top, right bottom, from(#ff5656), to(#ff7d1a));
   background: linear-gradient(to bottom right, #ff5656, #ff7d1a);
