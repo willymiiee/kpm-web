@@ -20,7 +20,7 @@
         .card {
             &-header {
                 cursor: pointer;
-                background: $light-grey; 
+                background: $light-grey;
                 transition: all 0.3s ease;
 
                 &[aria-expanded="true"] {
@@ -43,20 +43,10 @@
             &-body {
                 padding-top: 30px;
                 padding-bottom: 30px;
-                span {
-                    background: $primary-color;
-                    color: $white;
-                    border-radius: .5rem;
-                    padding: .2rem .8rem;
-                    margin-bottom: .4rem;
-                    display: inline-block;
-                }
 
-                .media {
-                    img {
-                        width: 16px;
-                        height: 16px;
-                    }
+                .media img {
+                    width: 16px;
+                    height: 16px;
                 }
             }
         }

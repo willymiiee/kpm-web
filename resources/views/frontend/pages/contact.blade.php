@@ -12,7 +12,7 @@ Hubungi Kami
         </div>
     </header>
     <div class="container">
-        <p class="py-5">Anda dapat mengetahui lebih lanjut dan lebih terperinci mengenai deskripsi, ketersediaan maupun
+        <p class="py-5">Anda dapat mengetahui lebih lanjut serta lebih terperinci mengenai deskripsi, ketersediaan maupun
             harga produk
             dengan mengubungi kontak yang ada dibawah ini.</p>
         <div class="main-contact" id="contact-accordion">
@@ -25,7 +25,6 @@ Hubungi Kami
                 <div id="contact-1" class="collapse show" data-parent="#contact-accordion">
                     <div class="card-body">
                         <p>Penanggung Jawab : Bapak Merta</p>
-                        <p>Produk yang Tersedia : <span>Indomie</span> , <span>Pepsi</span> , <span>Bihun Jagung Padamu</span></p>
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/phone-call.svg">
                             <div class="media-body">
@@ -52,7 +51,6 @@ Hubungi Kami
                 <div id="contact-2" class="collapse" data-parent="#contact-accordion">
                     <div class="card-body">
                         <p>Penanggung Jawab : Bapak Merta</p>
-                        <p>Produk yang Tersedia : <span>Snickers</span> , <span>Pop Mie</span></p>
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/phone-call.svg">
                             <div class="media-body">
@@ -79,7 +77,6 @@ Hubungi Kami
                 <div id="contact-3" class="collapse" data-parent="#contact-accordion">
                     <div class="card-body">
                         <p>Penanggung Jawab : Bapak Merta</p>
-                        <p>Produk yang Tersedia : <span>Snickers</span> , <span>Pop Mie</span></p>
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/phone-call.svg">
                             <div class="media-body">
@@ -106,7 +103,6 @@ Hubungi Kami
                 <div id="contact-4" class="collapse" data-parent="#contact-accordion">
                     <div class="card-body">
                         <p>Penanggung Jawab : Bapak Wayan Kertiyasa</p>
-                        <p>Produk yang Tersedia : <span>Snickers</span> , <span>Pop Mie</span></p>
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/phone-call.svg">
                             <div class="media-body">
@@ -133,7 +129,6 @@ Hubungi Kami
                 <div id="contact-5" class="collapse" data-parent="#contact-accordion">
                     <div class="card-body">
                         <p>Penanggung Jawab : Bapak Wayan Kertiyasa</p>
-                        <p>Produk yang Tersedia : <span>Snickers</span> , <span>Pop Mie</span></p>
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/phone-call.svg">
                             <div class="media-body">
@@ -160,7 +155,6 @@ Hubungi Kami
                 <div id="contact-6" class="collapse" data-parent="#contact-accordion">
                     <div class="card-body">
                         <p>Penanggung Jawab : Bapak Wayan Kertiyasa</p>
-                        <p>Produk yang Tersedia : <span>Snickers</span> , <span>Pop Mie</span></p>
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/phone-call.svg">
                             <div class="media-body">
@@ -185,7 +179,6 @@ Hubungi Kami
                 <div id="contact-7" class="collapse" data-parent="#contact-accordion">
                     <div class="card-body">
                         <p>Penanggung Jawab : Putu Arianta (Depo Denpasar), Dewa Maharsika (HCO / Toko Modern)</p>
-                        <p>Produk yang Tersedia : <span>Snickers</span> , <span>Pop Mie</span></p>
                         <div class="media">
                             <img class="align-self-center mr-3" src="/img/icon/phone-call.svg">
                             <div class="media-body">

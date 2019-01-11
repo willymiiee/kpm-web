@@ -47,7 +47,7 @@ Beranda
         <div class="content row mx-auto">
             <div class="order-md-1 order-2 col-md-7 d-md-flex justify-content-md-center align-items-md-center">
                 <div class="w-75 position-relative">
-                    <span class="bg-text position-absolute">N</span>
+                    <span class="bg-text position-absolute">J</span>
                     <h2 class="content__title">Jaringan Luas di Pulau Bali</h2>
                     <p class="content__body">Anda berada di Bali ? Tenang saja ! Kami akan mendistribusikan produk kami
                         kepada anda dimanapun anda berada, telah beroperasi sejak tahun 1980 membuat
