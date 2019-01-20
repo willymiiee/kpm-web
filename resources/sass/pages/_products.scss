@@ -17,19 +17,20 @@
             max-width: 80%;
         }
         grid-auto-rows: min-content;
-        grid-gap: 20px;
+        grid-gap: 40px;
 
         &__item {
-            box-shadow: 0 0 30px $shadow;
-            border-radius: 5px;
+            box-shadow: 0 0 3rem $shadow;
+            border-radius: 0.5rem;
             position: relative;
 
             &--supplier {
                 position: absolute;
-                top: 8px;
-                left: 8px;
-                box-shadow: 0 0 30px $shadow;
-                border-radius: 5px;
+                top: 1rem;
+                left: 1rem;
+                box-shadow: 0 0 3rem $shadow;
+                border-radius: 0.5rem;
+                // Add another porperties because the logo is square
                 img[alt="Sukanda Djaya"] {
                     margin: 5px;
                     height: 65px;
@@ -54,13 +55,18 @@
             }
 
             &--name {
-                font-family: 'Nunito ExtraBold';
-                font-size: 2rem;
+                font-family: 'Nunito Bold';
+                display: inline-block;
+                font-size: 1.8rem;
                 background: $primary-color;
-                padding: 1rem 2rem;
-                border-bottom-right-radius: 8px;
-                border-bottom-left-radius: 8px;
-                margin: 0;
+                padding: 0.5rem 2rem;
+                border-radius: 0.5rem;
+                box-shadow: 0 0 3rem $shadow;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                margin-top: 1rem;
+                margin-bottom: 2.5rem;
                 color: $white;
             }
         }

@@ -23,7 +23,7 @@ Produk
         </div>
         <div class="product__item">
             <div class="product__item--supplier">
-                <img src="/img/supplier/mars.svg" alt="Mars Inc.">
+                <img src="/img/supplier/sukanda-djaya.jpg" alt="Sukanda Djaya">
             </div>
             <div class="product__item--image">
                 <img src="/img/products/snickers.png" alt="Snickers">
@@ -65,6 +65,60 @@ Produk
                 <img src="/img/products/pepsi.png" alt="Pepsi">
             </div>
             <p class="product__item--name text-center">Pepsi</p>
+        </div>
+        <div class="product__item">
+            <div class="product__item--supplier">
+                <img src="/img/supplier/indofood.svg" alt="Indofood">
+            </div>
+            <div class="product__item--image">
+                <img src="/img/products/mie3ayam.png" alt="Mie Telur 3 Ayam">
+            </div>
+            <p class="product__item--name text-center">Mie Telur 3 Ayam</p>
+        </div>
+        <div class="product__item">
+            {{-- <div class="product__item--supplier">
+                <img src="/img/supplier/indofood.svg" alt="Indofood">
+            </div> --}}
+            <div class="product__item--image">
+                <img src="/img/products/dairy-champ.png" alt="Dairy Champ">
+            </div>
+            <p class="product__item--name text-center">Susu Dairy Champ</p>
+        </div>
+        <div class="product__item">
+            <div class="product__item--supplier">
+                <img src="/img/supplier/sukanda-djaya.jpg" alt="Sukanda Djaya">
+            </div>
+            <div class="product__item--image">
+                <img src="/img/products/sugus.png" alt="Sugus">
+            </div>
+            <p class="product__item--name text-center">Sugus</p>
+        </div>
+        <div class="product__item">
+            <div class="product__item--supplier">
+                <img src="/img/supplier/indofood.svg" alt="Indofood">
+            </div>
+            <div class="product__item--image">
+                <img src="/img/products/fruitamin.jpg" alt="Fruitamin">
+            </div>
+            <p class="product__item--name text-center">Fruitamin</p>
+        </div>
+        <div class="product__item">
+            <div class="product__item--supplier">
+                <img src="/img/supplier/indofood.svg" alt="Indofood">
+            </div>
+            <div class="product__item--image">
+                <img src="/img/products/ichi-ocha.jpg" alt="Ichi Ocha">
+            </div>
+            <p class="product__item--name text-center">Ichi Ocha</p>
+        </div>
+        <div class="product__item">
+            <div class="product__item--supplier">
+                <img src="/img/supplier/indofood.svg" alt="Indofood">
+            </div>
+            <div class="product__item--image">
+                <img src="/img/products/cafela.png" alt="Cafela">
+            </div>
+            <p class="product__item--name text-center">Cafela</p>
         </div>
     </div>
 </div>
