@@ -48,10 +48,10 @@
             width: 30rem;
             height: 40rem;
             background: $primary-color;
-            border-radius: 5px;
-            box-shadow: 0 0 30px $shadow;
-            left: 30px;
-            bottom: -30px;
+            border-radius: 0.5rem;
+            box-shadow: 0 0 3rem $shadow;
+            left: 3rem;
+            bottom: -3rem;
             z-index: 2;
 
             img {
@@ -59,9 +59,9 @@
                 width: inherit;
                 height: inherit;
                 object-fit: cover;
-                border-radius: 5px;
-                left: -30px;
-                top: -30px;
+                border-radius: 0.5rem;
+                left: -3rem;
+                top: -3rem;
                 z-index: 3;
             }
         }
@@ -74,11 +74,11 @@
 
     .content-2 {
         img {
-            width: 450px;
+            width: 45rem;
         }
 
         .media img {
-            width: 20px !important;
+            width: 2rem !important;
         }
 
         .media-body {
@@ -97,7 +97,7 @@
 
             &:before,
             &:after {
-                border-top: 2px solid $red;
+                border-top: 0.2rem solid $red;
                 content: '';
                 display: table-cell;
                 position: relative;
@@ -116,12 +116,12 @@
 
         .history {
             background: $primary-color;
-            border-radius: 5px;
-            margin-top: 40px;
+            border-radius: 0.5rem;
+            margin-top: 4rem;
 
             p {
                 color: $white;
-                padding: 40px;
+                padding: 4rem;
                 margin: 0;
             }
         }
@@ -132,11 +132,11 @@
 
     .about {
         .content {
-            padding-top: 60px !important;
+            padding-top: 6rem !important;
 
             &__counter {
-                font-size: 25px !important;
-                margin-top: 70px !important;
+                font-size: 2.5rem !important;
+                margin-top: 7rem !important;
             }
         }
     }
@@ -147,24 +147,24 @@
     .about {
         .content {
             &__counter {
-                font-size: 20px !important;
+                font-size: 2rem !important;
             }
 
             &__title {
-                font-size: 30px !important;
+                font-size: 3rem !important;
             }
         }
 
         .content-1 {
             .bg-shadow {
-                width: 300px !important;
-                height: 400px !important;
-                left: 20px !important;
-                bottom: -20px !important;
+                width: 25rem !important;
+                height: 35rem !important;
+                left: 2rem !important;
+                bottom: -2rem !important;
 
                 img {
-                    left: -20px !important;
-                    top: -20px !important;
+                    left: -2rem !important;
+                    top: -2rem !important;
                 }
             }
         }
@@ -172,7 +172,7 @@
 
         .content-2 {
             img {
-                width: 300px !important;
+                width: 30rem !important;
             }
         }
     }
