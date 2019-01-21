@@ -120,6 +120,15 @@ Produk
             </div>
             <p class="product__item--name text-center">Cafela</p>
         </div>
+        <div class="product__item">
+            <div class="product__item--supplier">
+                <img src="/img/supplier/indofood.svg" alt="Indofood">
+            </div>
+            <div class="product__item--image">
+                <img src="/img/products/vitami.png" alt="Vitami">
+            </div>
+            <p class="product__item--name text-center">Vitami Mie Instan</p>
+        </div>
     </div>
 </div>
 

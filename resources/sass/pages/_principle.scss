@@ -71,5 +71,21 @@
             padding: 10px 20px;
             margin-bottom: 30px;
         }
+        p {
+            text-indent: 4rem;
+            text-align: justify;
+        }
+        a {
+            font-size: 1.7rem;
+            font-family: 'Montserrat Bold';
+            text-decoration: underline;
+            color: $red;
+            display: inline-block;
+            margin-bottom: 2rem;
+            transition: color 0.3s ease;
+            &:hover {
+                color: darken($red, 30%);
+            }
+        }
     }
 }

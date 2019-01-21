@@ -44,8 +44,9 @@ h4 {
 
 // Text Body / Content
 
-p {
+p, li {
     font-family: 'Nunito SemiBold';
     font-size: 1.7rem;
+    line-height: 1.65;
     color: $black;
 }
