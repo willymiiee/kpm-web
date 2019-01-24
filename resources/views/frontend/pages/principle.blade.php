@@ -55,10 +55,10 @@ Principal
         </div>
     </div>
     <div class="supplier container">
-        <div class="supplier__desc pt-5">
-            {{-- <div class="supplier__logo d-flex justify-content-center align-items-center">
-                <img src="/img/supplier/mars.svg" alt="Mars Inc.">
-            </div> --}}
+        <div class="supplier__desc">
+            <div class="supplier__logo d-flex justify-content-center align-items-center">
+                <img src="/img/supplier/vixon.png" alt="PT. Vixon Indonesia">
+            </div>
             <h2 class="supplier__title">PT. Vixon Indonesia</h2>
             <p>PT Vixon Indonesia bergerak di bidang distribusi produk konsumen, seperti biskuit, susu kental manis, dan obat-obatan. Perusahaan ini didirikan pada tahun 2001 dan berpusat di Jakarta, Indonesia. Pada tanggal 30 Juni 2014, PT Vixon Indonesia beroperasi sebagai anak perusahaan dari Asahi Group Holdings Southeast Asia Pte. Ltd.</p>
             <footer class="blockquote-footer">Sejak 2013</footer>

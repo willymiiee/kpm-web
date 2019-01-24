@@ -76,9 +76,9 @@ Produk
             <p class="product__item--name text-center">Mie Telur 3 Ayam</p>
         </div>
         <div class="product__item">
-            {{-- <div class="product__item--supplier">
-                <img src="/img/supplier/indofood.svg" alt="Indofood">
-            </div> --}}
+            <div class="product__item--supplier">
+                <img src="/img/supplier/vixon.png" alt="PT. Vixon Indonesia">
+            </div>
             <div class="product__item--image">
                 <img src="/img/products/dairy-champ.png" alt="Dairy Champ">
             </div>
