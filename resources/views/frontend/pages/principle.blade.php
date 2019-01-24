@@ -34,7 +34,7 @@ Principal
     <div class="supplier container">
         <div class="supplier__desc">
             <div class="supplier__logo d-flex justify-content-center align-items-center">
-                <img src="/img/supplier/indofood.svg" alt="Indofood">
+                <img src="/img/supplier/indofood-asahi.png" alt="PT. Anugerah Indofood Barokah Makmur">
             </div>
             <h2 class="supplier__title">PT. Anugerah Indofood Barokah Makmur</h2>
             <p>PT. Asahi Indofood Beverage Makmur bergerak di bidang produksi, pemasaran, penjualan, dan distribusi minuman non-alkohol di Indonesia. Perusahaan didirikan pada tahun 2012 dan berpusat di Jakarta, Indonesia. PT Asahi Indofood Beverage Makmur beroperasi sebagai anak perusahaan dari Asahi Group Holdings Southeast Asia Pte. Ltd. Sejak 29 Maret 2018, PT Asahi Indofood Beverage Makmur telah berganti nama menjadi PT. Anugerah Indofood Barokah Makmur (AIBM).</p>

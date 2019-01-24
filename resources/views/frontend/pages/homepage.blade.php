@@ -1,7 +1,11 @@
 @extends('frontend.layouts.master')
 
+@section('custom-meta')
+<meta name="description" content="Kami Merupakan Distributor Produk Makanan dan Minuman Terbesar di Bali"/>
+@endsection
+
 @section('title')
-Beranda
+Distributor Makanan dan Minuman | Bali
 @endsection
 
 @section('body')

@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')
 
 @section('title')
-Produk
+Produk Kami
 @endsection
 
 @section('body')
@@ -59,7 +59,7 @@ Produk
         </div>
         <div class="product__item">
             <div class="product__item--supplier">
-                <img src="/img/supplier/indofood.svg" alt="Indofood">
+                <img src="/img/supplier/indofood-asahi.png" alt="PT. Anugerah Indofood Barokah Makmur">
             </div>
             <div class="product__item--image">
                 <img src="/img/products/pepsi.png" alt="Pepsi">
@@ -95,7 +95,7 @@ Produk
         </div>
         <div class="product__item">
             <div class="product__item--supplier">
-                <img src="/img/supplier/indofood.svg" alt="Indofood">
+                <img src="/img/supplier/indofood-asahi.png" alt="PT. Anugerah Indofood Barokah Makmur">
             </div>
             <div class="product__item--image">
                 <img src="/img/products/fruitamin.jpg" alt="Fruitamin">
@@ -104,7 +104,7 @@ Produk
         </div>
         <div class="product__item">
             <div class="product__item--supplier">
-                <img src="/img/supplier/indofood.svg" alt="Indofood">
+                <img src="/img/supplier/indofood-asahi.png" alt="PT. Anugerah Indofood Barokah Makmur">
             </div>
             <div class="product__item--image">
                 <img src="/img/products/ichi-ocha.jpg" alt="Ichi Ocha">
