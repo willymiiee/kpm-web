@@ -5,7 +5,7 @@
 @endsection
 
 @section('title')
-Distributor Makanan dan Minuman | Bali
+Distributor Produk Makanan dan Minuman | Bali
 @endsection
 
 @section('body')
