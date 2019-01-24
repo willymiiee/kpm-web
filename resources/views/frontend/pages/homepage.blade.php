@@ -95,7 +95,7 @@ Beranda
                 <div class="product--thumbnail col-12 d-flex justify-content-center align-items-center my-2">
                     <img class="product--thumbnail__image" src="/img/products/snickers.png" alt="Snickers">
                 </div>
-                <a href="{{ url('/product') }}">
+                <a href="{{ url('/produk') }}">
                     <div class="product--thumbnail col-12 d-flex justify-content-center align-items-center">
                         <div class="d-flex flex-column justify-content-center align-items-center p-2">
                             <p class="product--thumbnail__text text-center py-1">Lihat Lebih Banyak</p>
