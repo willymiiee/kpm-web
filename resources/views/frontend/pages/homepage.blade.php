@@ -30,19 +30,20 @@ Distributor Produk Makanan dan Minuman | Bali
     <section class="second">
         <h2 class="text-center">Principal Terbaik Kami</h2>
         <div class="supplier container">
-            <div class="supplier__item">
-                <img src="/img/supplier/indofood.svg" alt="Indofood">
+            <div class="supplier__item" title="PT. Indofood CBP Sukses Makmur Tbk.">
+                <img src="/img/supplier/indofood.svg" alt="PT. Indofood CBP Sukses Makmur Tbk.">
             </div>
-            <div class="supplier__item">
-                <img src="/img/supplier/sps-food.jpg" alt="SPS Food" width="130">
+            <div class="supplier__item" title="PT. Sinar Pangan Sejahtera">
+                <img src="/img/supplier/sps-food.jpg" alt="PT. Sinar Pangan Sejahtera" width="130">
             </div>
-            <div class="supplier__item">
-                <img src="/img/supplier/sukanda-djaya.jpg" alt="Sukanda Djaya" width="130">
+            <div class="supplier__item" title="PT. Sukanda Djaya">
+                <img src="/img/supplier/sukanda-djaya.jpg" alt="PT. Sukanda Djaya" width="130">
             </div>
-            <div class="supplier__item">
-                <h2 class="no-logo m-0 text-center">PT. Vixon Indonesia</h2>
+            <div class="supplier__item" title="PT. Vixon Indonesia">
+                <img src="/img/supplier/vixon.png" alt="PT. Vixon Indonesia" width="130">
             </div>
         </div>
+        <a href="{{ url('/principal') }}" class="button fill">Lihat Lebih Banyak</a>
     </section>
 
     {{---------- Company Description Section ----------}}
