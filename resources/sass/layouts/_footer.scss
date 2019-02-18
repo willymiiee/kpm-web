@@ -1,22 +1,33 @@
 .footer {
     background-color: $white;
-    color: $dark-grey;
     font: 1.2rem 'Montserrat SemiBold';
     padding: 5rem 0;
-    &__copyright-contact {
-        p {
-            font-size: 1.5rem;
-            color: $dark-grey;
-            font-family: 'Montserrat SemiBold';
-        }
+
+    &-title {
+        font: 1.5rem 'Montserrat Bold';
     }
 
-    &__nav-link {
-        color: $dark-grey;
+    &-link {
+        // ============================================================================
+        // ========== USING "!important" TO OVERRIDE BOOTSTRAP DEFAULT STYLE ==========
+        // ============================================================================
         text-decoration: none !important;
         transition: color .3s ease;
+
         &:hover {
             color: darken($dark-grey, 30%);
         }
     }
+    &-copyright {
+        line-height: 1.5;
+    }
+}
+
+.footer,
+.footer-title,
+.footer-link {
+    // ==========================================
+    // ========== FONT COLOR IN FOOTER ==========
+    // ==========================================
+    color: $dark-grey;
 }
