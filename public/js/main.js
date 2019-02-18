@@ -1,5 +1,5 @@
-const productThumbnail = document.querySelectorAll('#home .product--thumbnail');
-const productPreview = document.querySelectorAll('#home .product--preview');
+const productThumbnail = document.querySelectorAll('#home .product-thumbnail');
+const productPreview = document.querySelectorAll('#home .product-preview');
 
 productThumbnail.forEach(function (el) {
     el.addEventListener('click', function () {

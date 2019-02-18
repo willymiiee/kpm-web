@@ -1,0 +1,9 @@
+.section-title {
+    font-size: 3.8rem;
+    margin-bottom: 1em;
+
+    @include media-breakpoint-down(md) {
+        text-align: center;
+        margin-top: 2em;
+    }
+}
