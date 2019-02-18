@@ -11000,7 +11000,7 @@ li {
 
 #home section:nth-child(4) .product-preview__name {
   position: absolute;
-  bottom: -8rem;
+  bottom: -4rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
