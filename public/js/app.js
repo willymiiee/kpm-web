@@ -36366,105 +36366,9 @@ render._withStripped = true
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
   \********************************************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
-/* globals __VUE_SSR_CONTEXT__ */
-
-// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
-// This module is a runtime utility for cleaner component module output and will
-// be included in the final webpack user bundle.
-
-function normalizeComponent (
-  scriptExports,
-  render,
-  staticRenderFns,
-  functionalTemplate,
-  injectStyles,
-  scopeId,
-  moduleIdentifier, /* server only */
-  shadowMode /* vue-cli only */
-) {
-  // Vue.extend constructor export interop
-  var options = typeof scriptExports === 'function'
-    ? scriptExports.options
-    : scriptExports
-
-  // render functions
-  if (render) {
-    options.render = render
-    options.staticRenderFns = staticRenderFns
-    options._compiled = true
-  }
-
-  // functional template
-  if (functionalTemplate) {
-    options.functional = true
-  }
-
-  // scopedId
-  if (scopeId) {
-    options._scopeId = 'data-v-' + scopeId
-  }
-
-  var hook
-  if (moduleIdentifier) { // server build
-    hook = function (context) {
-      // 2.3 injection
-      context =
-        context || // cached call
-        (this.$vnode && this.$vnode.ssrContext) || // stateful
-        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
-      // 2.2 with runInNewContext: true
-      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
-        context = __VUE_SSR_CONTEXT__
-      }
-      // inject component styles
-      if (injectStyles) {
-        injectStyles.call(this, context)
-      }
-      // register component module identifier for async chunk inferrence
-      if (context && context._registeredComponents) {
-        context._registeredComponents.add(moduleIdentifier)
-      }
-    }
-    // used by ssr in case component is cached and beforeCreate
-    // never gets called
-    options._ssrRegister = hook
-  } else if (injectStyles) {
-    hook = shadowMode
-      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }
-      : injectStyles
-  }
-
-  if (hook) {
-    if (options.functional) {
-      // for template-only hot-reload because in that case the render fn doesn't
-      // go through the normalizer
-      options._injectStyles = hook
-      // register for functioal component in vue file
-      var originalRender = options.render
-      options.render = function renderWithStyleInjection (h, context) {
-        hook.call(context)
-        return originalRender(h, context)
-      }
-    } else {
-      // inject component registration as beforeCreate hook
-      var existing = options.beforeCreate
-      options.beforeCreate = existing
-        ? [].concat(existing, hook)
-        : [hook]
-    }
-  }
-
-  return {
-    exports: scriptExports,
-    options: options
-  }
-}
-
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\xampp\\htdocs\\kpm-web\\node_modules\\vue-loader\\lib\\runtime\\componentNormalizer.js'");
 
 /***/ }),
 
@@ -47566,27 +47470,7 @@ module.exports = Vue;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || new Function("return this")();
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\xampp\\htdocs\\kpm-web\\node_modules\\webpack\\buildin\\global.js'");
 
 /***/ }),
 
@@ -47597,29 +47481,7 @@ module.exports = g;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = function(module) {
-	if (!module.webpackPolyfill) {
-		module.deprecate = function() {};
-		module.paths = [];
-		// module.parent = undefined by default
-		if (!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function() {
-				return module.i;
-			}
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\xampp\\htdocs\\kpm-web\\node_modules\\webpack\\buildin\\module.js'");
 
 /***/ }),
 
@@ -47795,7 +47657,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/lib/loader.js):\n\r\n@import '~bootstrap/scss/bootstrap';\r\n       ^\r\n      Can't find stylesheet to import.\n@import '~bootstrap/scss/bootstrap';\r\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  stdin 2:9  root stylesheet\r\n      in C:\\xampp\\htdocs\\kpm-web\\resources\\sass\\app.scss (line 2, column 9)\n    at runLoaders (C:\\xampp\\htdocs\\kpm-web\\node_modules\\webpack\\lib\\NormalModule.js:301:20)\n    at C:\\xampp\\htdocs\\kpm-web\\node_modules\\loader-runner\\lib\\LoaderRunner.js:364:11\n    at C:\\xampp\\htdocs\\kpm-web\\node_modules\\loader-runner\\lib\\LoaderRunner.js:230:18\n    at context.callback (C:\\xampp\\htdocs\\kpm-web\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at render (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass-loader\\lib\\loader.js:52:13)\n    at Function.$2 (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:25378:48)\n    at vB.$2 (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:16223:16)\n    at tz.ve (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:9275:42)\n    at tz.vd (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:9277:32)\n    at ic.uo (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8583:46)\n    at t6.$0 (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8728:7)\n    at Object.eu (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:1569:80)\n    at aj.bd (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8646:3)\n    at is.bd (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8576:25)\n    at is.cF (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8563:6)\n    at oy.cF (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8350:35)\n    at Object.o (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:1442:19)\n    at C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:5284:51\n    at w0.a (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:1453:71)\n    at w0.$2 (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8365:23)\n    at uC.$2 (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8360:25)\n    at tz.ve (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:9275:42)\n    at tz.vd (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:9277:32)\n    at ic.uo (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8583:46)\n    at t6.$0 (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8728:7)\n    at Object.eu (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:1569:80)\n    at aj.bd (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8646:3)\n    at is.bd (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8576:25)\n    at is.cF (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8563:6)\n    at oy.cF (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8350:35)\n    at Object.o (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:1442:19)\n    at C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:5835:52\n    at w0.a (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:1453:71)\n    at w0.$2 (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8365:23)\n    at uC.$2 (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:8360:25)\n    at tz.ve (C:\\xampp\\htdocs\\kpm-web\\node_modules\\sass\\sass.dart.js:9275:42)");
 
 /***/ }),
 
