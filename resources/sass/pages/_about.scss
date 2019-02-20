@@ -9,37 +9,42 @@
         @include page-header('about_desktop.jpg', 'about_mobile.jpg');
     }
 
-    .content {
-        padding-top: 120px;
+    .bg-shape-1 {
+        position: absolute;
+        width: 500px;
+        right: -350px;
+        z-index: -1;
 
-        .bg-shape-1 {
-            position: absolute;
-            width: 500px;
-            right: -350px;
-            z-index: -1;
-
-            @include media-breakpoint-down(md) {
-                width: 400px;
-                right: -250px;
-            }
+        @include media-breakpoint-down(md) {
+            width: 400px;
+            right: -250px;
         }
+    }
 
-        &__counter {
-            color: $red;
-            font-family: 'Montserrat ExtraBold';
-            font-style: italic;
-            text-decoration: underline;
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
+    .counter {
+        color: $red;
+        font-family: 'Montserrat ExtraBold';
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 2.8rem;
+        margin-bottom: 0.6em;
 
-        &__title {
-            color: $black;
+        @include media-breakpoint-down(sm) {
+            margin-top: 2.5em;
+            font-size: 2.5rem;
         }
+    }
 
-        &__body {
-            margin-top: 20px;
-        }
+    .section-title {
+        color: $black !important;
+        margin: 0;
+        text-align: left;
+    }
+
+    .content-1,
+    .content-2,
+    .content-3 {
+        padding-top: 10rem;
     }
 
     .content-1 {
@@ -54,6 +59,13 @@
             bottom: -3rem;
             z-index: 2;
 
+            @include media-breakpoint-down(sm) {
+                width: 25rem;
+                height: 35rem;
+                left: 2rem;
+                bottom: -2rem;
+            }
+
             img {
                 position: absolute;
                 width: inherit;
@@ -63,6 +75,11 @@
                 left: -3rem;
                 top: -3rem;
                 z-index: 3;
+
+                @include media-breakpoint-down(sm) {
+                    left: -2rem;
+                    top: -2rem;
+                }
             }
         }
 
@@ -75,10 +92,14 @@
     .content-2 {
         img {
             width: 45rem;
+
+            @include media-breakpoint-down(sm) {
+                width: 30rem;
+            }
         }
 
         .media img {
-            width: 2rem !important;
+            width: 2rem;
         }
 
         .media-body {
@@ -87,9 +108,6 @@
     }
 
     .content-3 {
-        .content__counter {
-            margin: 0 !important;
-        }
 
         h2 {
             display: table;
@@ -117,66 +135,14 @@
         .history {
             background: $primary-color;
             border-radius: 0.5rem;
-            margin-top: 4rem;
+            margin-top: 2em;
 
             p {
                 color: $white;
-                padding: 4rem;
+                padding: 2em;
                 margin: 0;
                 text-align: justify;
             }
         }
     }
-}
-
-@include media-breakpoint-down(md) {
-
-    .about {
-        .content {
-            padding-top: 6rem !important;
-
-            &__counter {
-                font-size: 2.5rem !important;
-                margin-top: 7rem !important;
-            }
-        }
-    }
-}
-
-@include media-breakpoint-down(sm) {
-
-    .about {
-        .content {
-            &__counter {
-                font-size: 2rem !important;
-            }
-
-            &__title {
-                font-size: 3rem !important;
-            }
-        }
-
-        .content-1 {
-            .bg-shadow {
-                width: 25rem !important;
-                height: 35rem !important;
-                left: 2rem !important;
-                bottom: -2rem !important;
-
-                img {
-                    left: -2rem !important;
-                    top: -2rem !important;
-                }
-            }
-        }
-
-
-        .content-2 {
-            img {
-                width: 30rem !important;
-            }
-        }
-    }
-
-
 }
