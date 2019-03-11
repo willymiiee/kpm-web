@@ -12777,7 +12777,7 @@ li {
 }
 
 .contact .main-contact {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -12794,6 +12794,14 @@ li {
   transition: all 0.3s ease;
 }
 
+.contact .main-contact .card-header:hover {
+  background: #ff3c3c;
+}
+
+.contact .main-contact .card-header:hover h4 {
+  color: #fcfcfc;
+}
+
 .contact .main-contact .card-header[aria-expanded=true] {
   background: #ff5656;
 }
@@ -12805,14 +12813,6 @@ li {
 .contact .main-contact .card-header h4 {
   font-size: 2.3rem;
   margin: 0;
-}
-
-.contact .main-contact .card-header:hover {
-  background: #ff3c3c;
-}
-
-.contact .main-contact .card-header:hover h4 {
-  color: #fcfcfc;
 }
 
 .contact .main-contact .card-body {

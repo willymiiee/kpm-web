@@ -10,7 +10,7 @@
     }
 
     .main-contact {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
 
         @include media-breakpoint-down(md) {
@@ -18,11 +18,22 @@
         }
 
         .card {
+
+            // Style Accordion Header
             &-header {
                 cursor: pointer;
                 background: $light-grey;
                 transition: all 0.3s ease;
 
+                &:hover {
+                    background: $red;
+
+                    h4 {
+                        color: $white;
+                    }
+                }
+
+                // When Accordion is Clicked and Showing Contact Number
                 &[aria-expanded="true"] {
                     background: lighten($red, 5%);
 
@@ -34,14 +45,6 @@
                 h4 {
                     font-size: 2.3rem;
                     margin: 0;
-                }
-
-                &:hover {
-                    background: $red;
-
-                    h4 {
-                        color: $white;
-                    }
                 }
             }
 
