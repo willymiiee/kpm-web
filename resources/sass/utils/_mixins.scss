@@ -6,13 +6,13 @@
     background: linear-gradient(rgba($black, 0.6)),
     url('/img/background/#{$name_desktop}') no-repeat center;
     background-size: cover;
-    height: 35rem;
+    height: 30rem;
 
     @include media-breakpoint-down(sm) {
         background: linear-gradient(rgba($black, 0.6)),
         url('/img/background/#{$name_mobile}') no-repeat center;
         background-size: cover;
-        height: 28rem;
+        height: 24rem;
     }
 
     // ---------- Header Section Title ( like: About Us, Infrastructure, etc...)
@@ -20,12 +20,12 @@
     &__title {
         position: absolute;
         bottom: 3rem;
-        font: 8rem 'Montserrat Black';
+        font: 7rem 'Montserrat Black';
         color: $white;
 
         @include media-breakpoint-down(sm) {
             bottom: 1.5rem;
-            font-size: 6rem;
+            font-size: 5rem;
         }
     }
 }

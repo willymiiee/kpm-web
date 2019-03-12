@@ -12254,7 +12254,7 @@ li {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/about_desktop.jpg") no-repeat center;
   background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/about_desktop.jpg") no-repeat center;
   background-size: cover;
-  height: 35rem;
+  height: 30rem;
 }
 
 @media (max-width: 767.98px) {
@@ -12262,21 +12262,21 @@ li {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/about_mobile.jpg") no-repeat center;
     background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/about_mobile.jpg") no-repeat center;
     background-size: cover;
-    height: 28rem;
+    height: 24rem;
   }
 }
 
 .about .page-header__title {
   position: absolute;
   bottom: 3rem;
-  font: 8rem "Montserrat Black";
+  font: 7rem "Montserrat Black";
   color: #fcfcfc;
 }
 
 @media (max-width: 767.98px) {
   .about .page-header__title {
     bottom: 1.5rem;
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 
@@ -12428,7 +12428,7 @@ li {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/supplier_desktop.jpg") no-repeat center;
   background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/supplier_desktop.jpg") no-repeat center;
   background-size: cover;
-  height: 35rem;
+  height: 30rem;
 }
 
 @media (max-width: 767.98px) {
@@ -12436,21 +12436,21 @@ li {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/supplier_mobile.jpg") no-repeat center;
     background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/supplier_mobile.jpg") no-repeat center;
     background-size: cover;
-    height: 28rem;
+    height: 24rem;
   }
 }
 
 #supplier .page-header__title {
   position: absolute;
   bottom: 3rem;
-  font: 8rem "Montserrat Black";
+  font: 7rem "Montserrat Black";
   color: #fcfcfc;
 }
 
 @media (max-width: 767.98px) {
   #supplier .page-header__title {
     bottom: 1.5rem;
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 
@@ -12551,7 +12551,7 @@ li {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/product_desktop.jpg") no-repeat center;
   background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/product_desktop.jpg") no-repeat center;
   background-size: cover;
-  height: 35rem;
+  height: 30rem;
 }
 
 @media (max-width: 767.98px) {
@@ -12559,21 +12559,21 @@ li {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/product_mobile.jpg") no-repeat center;
     background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/product_mobile.jpg") no-repeat center;
     background-size: cover;
-    height: 28rem;
+    height: 24rem;
   }
 }
 
 #product .page-header__title {
   position: absolute;
   bottom: 3rem;
-  font: 8rem "Montserrat Black";
+  font: 7rem "Montserrat Black";
   color: #fcfcfc;
 }
 
 @media (max-width: 767.98px) {
   #product .page-header__title {
     bottom: 1.5rem;
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 
@@ -12655,7 +12655,7 @@ li {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/infrastructure_desktop.jpg") no-repeat center;
   background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/infrastructure_desktop.jpg") no-repeat center;
   background-size: cover;
-  height: 35rem;
+  height: 30rem;
 }
 
 @media (max-width: 767.98px) {
@@ -12663,21 +12663,21 @@ li {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/infrastructure_mobile.jpg") no-repeat center;
     background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/infrastructure_mobile.jpg") no-repeat center;
     background-size: cover;
-    height: 28rem;
+    height: 24rem;
   }
 }
 
 #infrastructure .page-header__title {
   position: absolute;
   bottom: 3rem;
-  font: 8rem "Montserrat Black";
+  font: 7rem "Montserrat Black";
   color: #fcfcfc;
 }
 
 @media (max-width: 767.98px) {
   #infrastructure .page-header__title {
     bottom: 1.5rem;
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 
@@ -12751,7 +12751,7 @@ li {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/contact_desktop.jpg") no-repeat center;
   background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/contact_desktop.jpg") no-repeat center;
   background-size: cover;
-  height: 35rem;
+  height: 30rem;
 }
 
 @media (max-width: 767.98px) {
@@ -12759,21 +12759,21 @@ li {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("/img/background/contact_mobile.jpg") no-repeat center;
     background: linear-gradient(rgba(0, 0, 0, 0.6)), url("/img/background/contact_mobile.jpg") no-repeat center;
     background-size: cover;
-    height: 28rem;
+    height: 24rem;
   }
 }
 
 .contact .page-header__title {
   position: absolute;
   bottom: 3rem;
-  font: 8rem "Montserrat Black";
+  font: 7rem "Montserrat Black";
   color: #fcfcfc;
 }
 
 @media (max-width: 767.98px) {
   .contact .page-header__title {
     bottom: 1.5rem;
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 
