@@ -12687,7 +12687,8 @@ li {
           box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin-top: 380px;
-  padding-top: 14rem;
+  padding-top: 13rem;
+  padding-bottom: 3rem;
 }
 
 #infrastructure .warehouse__details h4 {
@@ -12705,7 +12706,7 @@ li {
 
 #infrastructure .warehouse__details--thumbnail {
   position: absolute;
-  width: 90%;
+  width: 80%;
   height: 350px;
   left: 50%;
   top: -300px;

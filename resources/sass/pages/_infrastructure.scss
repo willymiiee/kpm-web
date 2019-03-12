@@ -15,7 +15,8 @@
             box-shadow: 0 0 30px $shadow;
             border-radius: 5px;
             margin-top: 380px;
-            padding-top: 14rem;
+            padding-top: 13rem;
+            padding-bottom: 3rem;
             h4 {
                 font-family: 'Montserrat SemiBold';
                 font-size: 1.9rem;
@@ -30,7 +31,7 @@
 
             &--thumbnail {
                 position: absolute;
-                width: 90%;
+                width: 80%;
                 height: 350px;
                 left: 50%;
                 top: -300px;

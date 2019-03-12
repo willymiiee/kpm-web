@@ -12,7 +12,7 @@ Infrastruktur
         </div>
     </header>
     <div class="warehouse container row mx-auto">
-        <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
+        <div class="warehouse__details col-lg-8 offset-lg-2 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
                 <img src="/img/infrastructure/negara4.jpg">
                 <div class="warehouse__details--thumbnail--name">
@@ -26,7 +26,7 @@ Infrastruktur
             <h4>Kapasitas :</h4>
             <p>12.000 CRT</p>
         </div>
-        <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
+        <div class="warehouse__details col-lg-8 offset-lg-2 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
                 <img src="/img/infrastructure/singaraja1.jpg">
                 <div class="warehouse__details--thumbnail--name">
@@ -40,7 +40,7 @@ Infrastruktur
             <h4>Kapasitas :</h4>
             <p>50.000 CRT</p>
         </div>
-        <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
+        <div class="warehouse__details col-lg-8 offset-lg-2 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
                 <img src="/img/infrastructure/kuta1.jpeg">
                 <div class="warehouse__details--thumbnail--name">
@@ -54,7 +54,7 @@ Infrastruktur
             <h4>Kapasitas :</h4>
             <p>8.000 CRT</p>
         </div>
-        <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
+        <div class="warehouse__details col-lg-8 offset-lg-2 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
                 <img src="/img/infrastructure/bangli2.jpeg">
                 <div class="warehouse__details--thumbnail--name">
@@ -68,7 +68,7 @@ Infrastruktur
             <h4>Kapasitas :</h4>
             <p>8.000 CRT</p>
         </div>
-        <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
+        <div class="warehouse__details col-lg-8 offset-lg-2 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
                 <img src="/img/infrastructure/karangasem1.jpeg">
                 <div class="warehouse__details--thumbnail--name">
@@ -82,7 +82,7 @@ Infrastruktur
             <h4>Kapasitas :</h4>
             <p>4.000 CRT</p>
         </div>
-        <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
+        <div class="warehouse__details col-lg-8 offset-lg-2 text-center">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
                 <img src="/img/infrastructure/klungkung1.jpeg">
                 <div class="warehouse__details--thumbnail--name">
@@ -96,7 +96,7 @@ Infrastruktur
             <h4>Kapasitas :</h4>
             <p>12.000 CRT</p>
         </div>
-        <div class="warehouse__details col-sm-10 offset-sm-1 text-center">
+        <div class="warehouse__details col-lg-8 offset-lg-2 text-center mb-5">
             <div class="warehouse__details--thumbnail d-flex justify-content-center">
                 <img src="/img/infrastructure/denpasar1.jpeg">
                 <div class="warehouse__details--thumbnail--name">
