@@ -12686,8 +12686,8 @@ li {
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  margin-top: 350px;
-  padding-top: 100px;
+  margin-top: 380px;
+  padding-top: 14rem;
 }
 
 #infrastructure .warehouse__details h4 {
@@ -12700,7 +12700,7 @@ li {
 #infrastructure .warehouse__details p {
   color: #ff3c3c;
   font-family: "Montserrat SemiBold";
-  margin-bottom: 20px;
+  margin-bottom: 1.6em;
 }
 
 #infrastructure .warehouse__details--thumbnail {
