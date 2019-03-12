@@ -37,6 +37,10 @@
                 top: -300px;
                 z-index: 1;
                 transform: translateX(-50%);
+                @include media-breakpoint-down(sm) {
+                    max-height: 240px;
+                    top: -200px;
+                }
 
 
                 img {
