@@ -17,6 +17,9 @@
             margin-top: 380px;
             padding-top: 13rem;
             padding-bottom: 3rem;
+            @include media-breakpoint-down(sm) {
+                margin-top: 280px;
+            }
             h4 {
                 font-family: 'Montserrat SemiBold';
                 font-size: 1.9rem;

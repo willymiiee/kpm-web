@@ -12691,6 +12691,12 @@ li {
   padding-bottom: 3rem;
 }
 
+@media (max-width: 767.98px) {
+  #infrastructure .warehouse__details {
+    margin-top: 280px;
+  }
+}
+
 #infrastructure .warehouse__details h4 {
   font-family: "Montserrat SemiBold";
   font-size: 1.9rem;
