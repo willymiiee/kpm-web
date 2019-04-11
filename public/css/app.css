@@ -12626,9 +12626,15 @@ li {
 }
 
 #product .product__item--image img {
-  height: 12rem;
+  height: 10rem;
   margin-top: 8rem;
   margin-bottom: 3rem;
+}
+
+#product .product__item--image img.vertical {
+  height: auto;
+  width: 15rem;
+  margin-top: 110px;
 }
 
 #product .product__item--name {

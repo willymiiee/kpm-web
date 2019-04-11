@@ -26,7 +26,7 @@ Produk Kami
                 <img src="/img/supplier/sukanda-djaya.jpg" alt="Sukanda Djaya">
             </div>
             <div class="product__item--image">
-                <img src="/img/products/snickers.png" alt="Snickers">
+                <img src="/img/products/snickers.png" alt="Snickers" class="vertical">
             </div>
             <p class="product__item--name text-center">Snickers</p>
         </div>
@@ -71,7 +71,7 @@ Produk Kami
                 <img src="/img/supplier/indofood.svg" alt="Indofood">
             </div>
             <div class="product__item--image">
-                <img src="/img/products/mie3ayam.png" alt="Mie Telur 3 Ayam">
+                <img src="/img/products/mie3ayam.png" alt="Mie Telur 3 Ayam" class="vertical">
             </div>
             <p class="product__item--name text-center">Mie Telur 3 Ayam</p>
         </div>
@@ -89,7 +89,7 @@ Produk Kami
                 <img src="/img/supplier/sukanda-djaya.jpg" alt="Sukanda Djaya">
             </div>
             <div class="product__item--image">
-                <img src="/img/products/sugus.png" alt="Sugus">
+                <img src="/img/products/sugus.png" alt="Sugus" class="vertical">
             </div>
             <p class="product__item--name text-center">Sugus</p>
         </div>
